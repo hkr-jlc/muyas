@@ -35,7 +35,7 @@ function removeTashkeel(text) {
 }
 
 function applyTashkeelState() {
-    document.querySelectorAll('[data-tashkeel]').forEach(el => {
+    document.querySelectorAll('.teks_arab').forEach(el => {
         const tashkeel = el.getAttribute('data-tashkeel');
         if (!tashkeel) return;
         const gundul = removeTashkeel(tashkeel);
@@ -43,11 +43,14 @@ function applyTashkeelState() {
     });
 }
 
+// Helper: Render Arabic text with tashkeel toggle support
+// Default: gundul (no tashkeel). Click "تشكيل" to show tashkeel.
+// SEMUA teks Arab otomatis pakai class="teks_arab"
 function ar(text) {
     if (!text) return '';
     const tashkeel = tashkeelMap[text] || text;
     const display = showTashkeel ? tashkeel : text;
-    return `<span data-tashkeel="${tashkeel.replace(/"/g, '&quot;')}" class="arabic-inline">${display}</span>`;
+    return `<span class="teks_arab" data-tashkeel="${tashkeel.replace(/"/g, '&quot;')}">${display}</span>`;
 }
 
 function arText(text) {
@@ -1078,26 +1081,48 @@ function showSection(sectionId) {
 }
 
 // ============================================
-// TTS FOR ARABIC
+// TTS FOR ARABIC - class="teks_arab" only
 // ============================================
 
 function speakArabic(text) {
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text.replace(/<[^>]*>/g, '').trim());
+    const cleanText = text.replace(/<[^>]*>/g, '').trim().replace(/\s+/g, ' ');
+    if (!cleanText) return;
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ar-SA';
     utterance.rate = 0.8;
     window.speechSynthesis.speak(utterance);
 }
 
 function attachTTS() {
-    document.querySelectorAll('.arabic-text').forEach(el => {
+    // Inject hover style sekali saja untuk class teks_arab
+    if (!document.getElementById('tts-hover-style')) {
+        const style = document.createElement('style');
+        style.id = 'tts-hover-style';
+        style.textContent = `
+            .teks_arab {
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+                border-radius: 4px;
+                padding: 2px 4px;
+                margin: -2px -4px;
+            }
+            .teks_arab:hover {
+                background-color: rgba(26, 92, 58, 0.12);
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    // Attach ke SEMUA elemen dengan class="teks_arab" di main container
+    document.querySelectorAll('#main-container .teks_arab').forEach(el => {
         if (el.dataset.ttsAttached) return;
         el.dataset.ttsAttached = 'true';
-        el.style.cursor = 'pointer';
         el.title = 'انقر للاستماع';
         el.addEventListener('click', function(e) {
-            if (e.target.closest('a')) return;
+            // Jangan trigger kalau klik link atau tombol
+            if (e.target.closest('a, button, .nav-btn')) return;
             speakArabic(this.textContent);
         });
     });
