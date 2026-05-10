@@ -1,0 +1,1278 @@
+/* ============================================
+   Al-Muyassar fi 'Ilm al-Nahw - Arabic RTL Styles
+   ============================================ */
+
+/* CSS Reset & Base */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1a5c3a;
+    --primary-dark: #0d3d24;
+    --primary-light: #e8f5ee;
+    --accent: #c49a3c;
+    --accent-light: #fdf6e3;
+    --gold: #c49a3c;
+    --text-dark: #1a1a1a;
+    --text-medium: #4a4a4a;
+    --text-light: #6b6b6b;
+    --bg-body: #f8f6f1;
+    --bg-card: #ffffff;
+    --bg-header: linear-gradient(135deg, #1a5c3a 0%, #2d7a50 50%, #1a5c3a 100%);
+    --border: #d4d0c8;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow: 0 2px 8px rgba(0,0,0,0.1);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+    --radius: 0.75rem;
+    --font-arabic: 'Scheherazade New', Arial;
+    --font-body: 'Scheherazade New', Arial;
+    --transition: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--bg-body);
+    color: var(--text-dark);
+    line-height: 1.8;
+    direction: rtl;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================
+   LEVEL SELECTOR OVERLAY
+   ============================================ */
+.level-selector-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-body);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.level-selector-overlay.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.level-selector-container {
+    text-align: center;
+    max-width: 520px;
+    width: 100%;
+}
+
+.book-title-main {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--primary);
+}
+
+.book-title-ar {
+    font-family: var(--font-arabic);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.book-subtitle-ar {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    color: var(--text-medium);
+    margin-bottom: 0.75rem;
+}
+
+.book-author {
+    font-family: var(--font-arabic);
+    font-size: 0.9375rem;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.book-publisher {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.level-selector-label {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-medium);
+    margin-bottom: 1rem;
+}
+
+.level-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.875rem;
+}
+
+.level-card {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    background: var(--bg-card);
+    border-radius: 1rem;
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: var(--transition);
+    border: 2px solid transparent;
+    text-align: right;
+    direction: rtl;
+}
+
+.level-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.level-card:active {
+    transform: scale(0.98);
+}
+
+.level-badge {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-arabic);
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: white;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.level-badge.l1 { background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%); }
+.level-badge.l2 { background: linear-gradient(135deg, #2980b9 0%, #1f618d 100%); }
+.level-badge.l3 { background: linear-gradient(135deg, #8e44ad 0%, #6c3483 100%); }
+
+.level-info {
+    flex: 1;
+    text-align: right;
+}
+
+.level-name {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    display: block;
+}
+
+.level-desc {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: var(--text-light);
+    margin-top: 0.25rem;
+}
+
+.level-arrow {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    margin-right: 0.5rem;
+}
+
+/* ============================================
+   DRAWER (RTL - Right Side)
+   ============================================ */
+.sidebar-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    max-width: 85vw;
+    height: 100vh;
+    background: var(--bg-card);
+    z-index: 1001;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    direction: rtl;
+}
+
+.sidebar-drawer.active {
+    transform: translateX(0);
+}
+
+.drawer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.drawer-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.drawer-header {
+    padding: 1.25rem;
+    background: var(--bg-header);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.drawer-brand {
+    flex: 1;
+}
+
+.drawer-logo {
+    font-family: var(--font-arabic);
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.drawer-subtitle {
+    font-family: var(--font-arabic);
+    font-size: 0.9375rem;
+    opacity: 0.9;
+    margin-top: 0.25rem;
+}
+
+.drawer-level-info {
+    font-size: 0.8125rem;
+    opacity: 0.75;
+    margin-top: 0.5rem;
+    font-family: var(--font-body);
+}
+
+.drawer-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    transition: background 0.2s;
+}
+
+.drawer-close:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.drawer-level-bar {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--primary-light);
+}
+
+.level-change-btn {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.9375rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 100%;
+}
+
+.level-change-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(26,92,58,0.35);
+}
+
+.drawer-content {
+    padding: 0.5rem 0;
+}
+
+.drawer-section {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.drawer-section-title {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.drawer-list {
+    padding: 0 0.5rem;
+}
+
+.drawer-item {
+    padding: 0.625rem 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    text-align: right;
+}
+
+.drawer-item:hover {
+    background: var(--primary-light);
+}
+
+.drawer-item.active {
+    background: var(--primary-light);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.drawer-item-number {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-arabic);
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-left: 0.75rem;
+}
+
+.drawer-item-info {
+    flex: 1;
+    text-align: right;
+}
+
+.drawer-item-title {
+    font-family: var(--font-arabic);
+    font-size: 0.9375rem;
+    display: block;
+}
+
+.drawer-item-sub {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    margin-top: 0.125rem;
+    display: block;
+}
+
+.drawer-bab-group {
+    margin-bottom: 0.25rem;
+    direction: rtl;
+}
+
+.drawer-item-expandable {
+    padding: 0.625rem 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+    direction: rtl;
+    text-align: right;
+}
+
+.drawer-item-expandable:hover {
+    background: var(--primary-light);
+}
+
+.drawer-item-expandable.active {
+    background: var(--primary-light);
+}
+
+.drawer-expand-icon {
+    font-size: 0.625rem;
+    color: var(--text-light);
+    margin-right: 0.5rem;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}
+
+.drawer-expand-icon.expanded {
+    transform: rotate(-90deg);
+}
+
+.drawer-submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-right: 2.5rem;
+    direction: rtl;
+}
+
+.drawer-submenu.expanded {
+    max-height: 60rem;
+}
+
+.drawer-submenu-item {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: var(--transition);
+    direction: rtl;
+    text-align: right;
+    font-family: var(--font-arabic);
+}
+
+.drawer-submenu-item:hover {
+    background: #f3f4f6;
+}
+
+.drawer-submenu-item.active {
+    background: var(--primary-light);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.drawer-submenu-text {
+    display: block;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+.top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg-header);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.nav-container {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.hamburger-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+}
+
+.hamburger-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.hamburger-icon {
+    font-size: 1.25rem;
+}
+
+.nav-title {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 700;
+    flex: 1;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.translate-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.translate-btn {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 0.375rem 0.75rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.translate-btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.translate-btn.tashkeel-active {
+    background: #92400e;
+    border-color: #92400e;
+}
+
+.translate-btn.id-active {
+    background: #059669;
+    border-color: #059669;
+}
+
+/* ============================================
+   MAIN CONTAINER
+   ============================================ */
+.main-container {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 4rem;
+    direction: rtl;
+}
+
+/* ============================================
+   SECTIONS
+   ============================================ */
+section {
+    animation: fadeIn 0.3s ease;
+}
+
+section.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================
+   HOME HEADER
+   ============================================ */
+.home-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f8f6f1 0%, #e8f5ee 100%);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #d4e8dc;
+}
+
+.home-title {
+    font-family: var(--font-arabic);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.home-subtitle {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    color: var(--text-medium);
+    margin-bottom: 0.5rem;
+}
+
+.home-desc {
+    font-size: 0.9375rem;
+    color: var(--text-light);
+    font-family: var(--font-body);
+}
+
+/* ============================================
+   QUICK ACCESS / DAFTAR ISI
+   ============================================ */
+.quick-access {
+    margin-bottom: 2rem;
+}
+
+.quick-access-title {
+    font-family: var(--font-arabic);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quick-section-title {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin: 1.5rem 0 0.75rem;
+    padding-right: 0.75rem;
+    border-right: 3px solid var(--accent);
+}
+
+.bab-card-home {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border-radius: 0.75rem;
+    margin-bottom: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: var(--transition);
+    border-right: 4px solid var(--primary);
+    direction: rtl;
+    text-align: right;
+}
+
+.bab-card-home:hover {
+    box-shadow: var(--shadow);
+    transform: translateX(-4px);
+    border-right-color: var(--accent);
+}
+
+.bab-number-home {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-arabic);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.bab-info-home {
+    flex: 1;
+}
+
+.bab-category-home {
+    font-size: 0.8125rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-family: var(--font-body);
+}
+
+.bab-title-home {
+    font-family: var(--font-arabic);
+    font-size: 1rem;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.bab-page-home {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    flex-shrink: 0;
+    margin-right: 0.75rem;
+    font-family: var(--font-arabic);
+}
+
+/* ============================================
+   SECTION HEADER
+   ============================================ */
+.section-header {
+    background: var(--bg-header);
+    color: white;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    direction: rtl;
+}
+
+.bab-header-category {
+    font-size: 0.9375rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-body);
+}
+
+.bab-header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bab-header-number {
+    font-family: var(--font-arabic);
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.bab-header-text {
+    font-family: var(--font-arabic);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.bab-header-en {
+    font-size: 0.9375rem;
+    opacity: 0.85;
+    font-style: italic;
+}
+
+/* ============================================
+   CONTENT BOXES
+   ============================================ */
+.content-box {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    direction: rtl;
+    text-align: right;
+}
+
+.content-box .arabic-text {
+    font-family: var(--font-arabic);
+    font-size: 1.25rem;
+    line-height: 2;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.content-box .keterangan {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-medium);
+    background: var(--primary-light);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-right: 3px solid var(--primary);
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+.content-box .catatan {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    color: var(--text-medium);
+    background: var(--accent-light);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-right: 3px solid var(--accent);
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* ============================================
+   DIAGRAM / QISMAH SECTION
+   ============================================ */
+.diagram-box {
+    background: linear-gradient(135deg, #f0f7f4 0%, #e8f5ee 100%);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #c8e0d4;
+    direction: rtl;
+    text-align: right;
+}
+
+.diagram-box .diagram-title {
+    font-family: var(--font-arabic);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.qismah-card {
+    background: var(--bg-card);
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border-right: 4px solid var(--primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.qismah-card .qismah-name {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.qismah-card .qismah-def {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-medium);
+    margin-bottom: 0.75rem;
+    font-style: italic;
+}
+
+.qismah-card .qismah-example {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    color: var(--text-dark);
+    background: var(--bg-body);
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   ARABIC TEXT
+   ============================================ */
+.arabic-text {
+    font-family: var(--font-arabic);
+    font-size: 1.25rem;
+    line-height: 2;
+    color: var(--text-dark);
+    direction: rtl;
+}
+
+.contoh-box {
+    background: var(--accent-light);
+    border-radius: 0.625rem;
+    padding: 1rem 1.25rem;
+    margin: 0.75rem 0;
+    border-right: 3px solid var(--accent);
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.contoh-label {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+    font-family: var(--font-body);
+}
+
+/* ============================================
+   QOIDAH / RULE BOX
+   ============================================ */
+.qaidah-box {
+    background: linear-gradient(135deg, #fff9e6 0%, #fff3cc 100%);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    margin: 1rem 0;
+    border: 1px solid #e8d5a3;
+    border-right: 4px solid var(--accent);
+}
+
+.qaidah-box .qaidah-title {
+    font-family: var(--font-arabic);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8b6914;
+    margin-bottom: 0.75rem;
+}
+
+.qaidah-box .qaidah-text {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    line-height: 1.9;
+    color: var(--text-dark);
+}
+
+/* ============================================
+   TAMRIN / EXERCISE SECTION
+   ============================================ */
+.tamrin-section {
+    background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid #c7d2fe;
+    direction: rtl;
+    text-align: right;
+}
+
+.tamrin-section .tamrin-title {
+    font-family: var(--font-arabic);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #3730a3;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.soal-item {
+    background: var(--bg-card);
+    border-radius: 0.625rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    line-height: 1.8;
+    direction: rtl;
+}
+
+.soal-num {
+    display: inline-block;
+    width: 1.75rem;
+    height: 1.75rem;
+    background: #3730a3;
+    color: white;
+    border-radius: 0.375rem;
+    text-align: center;
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+/* ============================================
+   SUB-BAB SECTION
+   ============================================ */
+.sub-bab-section {
+    margin-bottom: 2rem;
+}
+
+.sub-bab-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-light);
+    direction: rtl;
+}
+
+.sub-bab-number {
+    font-family: var(--font-arabic);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    background: var(--primary-light);
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+}
+
+.sub-bab-title {
+    font-family: var(--font-arabic);
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+/* ============================================
+   DAFTAR ITEMS
+   ============================================ */
+.daftar-item {
+    background: var(--bg-card);
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-sm);
+    border-right: 3px solid var(--primary);
+    direction: rtl;
+    text-align: right;
+}
+
+.daftar-item .item-num {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.daftar-item .item-title {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   NAV BUTTONS
+   ============================================ */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    direction: rtl;
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    border: none;
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.75rem;
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    flex: 1;
+    max-width: 16rem;
+    text-align: center;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.nav-btn.prev-btn {
+    background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+}
+
+/* ============================================
+   PENGANTAR / MUQADDIMAH
+   ============================================ */
+.muqaddimah-box {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    direction: rtl;
+    text-align: right;
+}
+
+.muqaddimah-box .basmalah {
+    font-family: var(--font-arabic);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.muqaddimah-box .muqaddimah-text {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    line-height: 2;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    text-indent: 2rem;
+}
+
+.muqaddimah-box .penulis-ttd {
+    font-family: var(--font-arabic);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-top: 2rem;
+    text-align: left;
+    direction: ltr;
+}
+
+.muqaddimah-box .tempat {
+    font-size: 0.9375rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+    text-align: left;
+    direction: ltr;
+}
+
+/* ============================================
+   KHATIMAH
+   ============================================ */
+.khatimah-box {
+    background: linear-gradient(135deg, var(--primary-light) 0%, #f0f7f4 100%);
+    border-radius: var(--radius);
+    padding: 2rem;
+    margin-top: 2rem;
+    border: 1px solid #c8e0d4;
+    text-align: center;
+    direction: rtl;
+}
+
+.khatimah-box .khatimah-judul {
+    font-family: var(--font-arabic);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.khatimah-box .khatimah-text {
+    font-family: var(--font-arabic);
+    font-size: 1.125rem;
+    line-height: 2;
+    color: var(--text-dark);
+}
+
+/* ============================================
+   TRANSLATIONS
+   ============================================ */
+.translation-en,
+.translation-id {
+    display: none;
+    font-size: 0.9375rem;
+    color: #0ba656;
+    margin-top: 0.25rem;
+    line-height: 1.6;
+}
+
+.translation-en.visible,
+.translation-id.visible {
+    display: block;
+    direction: ltr;
+    text-align: left;
+}
+
+/* Arabic inline tashkeel toggle */
+.arabic-inline {
+    font-family: var(--font-arabic);
+}
+
+/* ============================================
+   INFO BUKU
+   ============================================ */
+.info-buku-box {
+    background: linear-gradient(135deg, #f8f6f1 0%, #e8f5ee 100%);
+    border-radius: var(--radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #d4e8dc;
+    direction: rtl;
+    text-align: center;
+}
+
+.info-buku-box .info-judul {
+    font-family: var(--font-arabic);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}
+
+.info-buku-box .info-detail {
+    font-size: 0.9375rem;
+    color: var(--text-medium);
+    margin-bottom: 0.375rem;
+    font-family: var(--font-body);
+}
+
+/* ============================================
+   PAGE NUMBER
+   ============================================ */
+.page-number {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--text-light);
+    margin-top: 1.5rem;
+    font-family: var(--font-arabic);
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 640px) {
+    .book-title-ar {
+        font-size: 1.875rem;
+    }
+
+    .bab-header-text {
+        font-size: 1.375rem;
+    }
+
+    .main-container {
+        padding: 1rem 0.75rem 3rem;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+    }
+
+    .nav-btn {
+        max-width: 100%;
+    }
+
+    .section-header {
+        padding: 1.5rem 1rem;
+    }
+
+    .content-box {
+        padding: 1.25rem;
+    }
+
+    .sidebar-drawer {
+        width: 85vw;
+    }
+}
+
+/* ============================================
+   SCROLLBAR RTL
+   ============================================ */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+
+/* ============================================
+   SELECTION
+   ============================================ */
+::selection {
+    background: rgba(26, 92, 58, 0.2);
+    color: var(--primary-dark);
+}

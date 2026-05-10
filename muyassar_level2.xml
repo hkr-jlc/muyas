@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<al_muyassar level="2">
+
+  <info_buku>
+    <judul>المُيَسَّرُ فِي عِلْمِ النَّحْوِ – الْمُسْتَوَى الثَّانِي</judul>
+    <judul_latin>Al-Muyassar fi 'Ilm al-Nahw - Level 2</judul_latin>
+    <penulis>أ. زَكَرِيَّا بْنُ أَحْمَدَ كَرْخِيٍّ</penulis>
+    <penulis_latin>A. Zakaria bin Ahmad Karkhi</penulis_latin>
+    <penerbit>دَارُ ابْنِ أَزْكَى</penerbit>
+    <penerbit_latin>IBN AZKA press</penerbit_latin>
+    <edisi>الطِّبَعَةُ الثَّالِثَةُ</edisi>
+    <tahun_hijriyah>١٤٤٤ هـ</tahun_hijriyah>
+    <tahun_masehi>٢٠٢٣ م</tahun_masehi>
+    <level>٢</level>
+    <jumlah_halaman>٤٨</jumlah_halaman>
+  </info_buku>
+
+  <pengantar>
+    <item id="muqaddimah" halaman="أ">
+      <judul>المُقَدِّمَةُ</judul>
+      <teks>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ. هَذَا كِتَابُ الْمُيَسَّرِ فِي عِلْمِ النَّحْوِ – الْمُسْتَوَى الثَّانِي، وَهُوَ يَشْمَلُ مَوَاضِعَ أَكْثَرَ تَقْدُمًا فِي عِلْمِ النَّحْوِ.</teks>
+      <teks_lanjutan>فِي هَذَا الْمُسْتَوَى سَنَدْرُسُ بِالتَّفْصِيلِ: الْمَفْعُولَاتِ الْأَرْبَعَ، وَالْحَالَ، وَالتَّمْيِيزَ، وَالْمُسْتَثْنَى، وَالتَّوَابِعَ، وَغَيْرَ ذَلِكَ.</teks_lanjutan>
+    </item>
+  </pengantar>
+
+  <daftar_isi>
+    <bab id="1" halaman="1">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَفْعُولُ بِهِ</judul>
+    </bab>
+    <bab id="2" halaman="5">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَفْعُولُ لَأَجْلِهِ</judul>
+    </bab>
+    <bab id="3" halaman="8">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَفْعُولُ فِيهِ (الظَّرْفُ)</judul>
+    </bab>
+    <bab id="4" halaman="12">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَفْعُولُ الْمُطْلَقُ</judul>
+    </bab>
+    <bab id="5" halaman="16">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَفْعُولُ مَعَهُ</judul>
+    </bab>
+    <bab id="6" halaman="20">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْحَالُ</judul>
+    </bab>
+    <bab id="7" halaman="25">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>التَّمْيِيزُ</judul>
+    </bab>
+    <bab id="8" halaman="30">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمُسْتَثْنَى</judul>
+    </bab>
+    <bab id="9" halaman="35">
+      <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+      <judul>خَبَرُ كَانَ وَأَخْوَاتِهَا وَاسْمُ إِنَّ وَأَخْوَاتِهَا</judul>
+    </bab>
+    <bab id="10" halaman="40">
+      <kategori>مَجْرُورَاتُ الْأَسْمَاءِ</kategori>
+      <judul>الْمَجْرُورُ بِحَرْفِ الْجَرِّ</judul>
+    </bab>
+    <bab id="11" halaman="44">
+      <kategori>الْتَوَابِعُ</kategori>
+      <judul>النَّعْتُ وَالصَّفَةُ</judul>
+    </bab>
+    <bab id="12" halaman="46">
+      <kategori>الْتَوَابِعُ</kategori>
+      <judul>الْعَطْفُ</judul>
+    </bab>
+  </daftar_isi>
+
+  <bab id="1" halaman="1">
+    <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+    <judul>الْمَفْعُولُ بِهِ</judul>
+    <content type="definisi">
+      <teks>الْمَفْعُولُ بِهِ هُوَ اسْمٌ مَنْصُوبٌ ذُكِرَ بَعْدَ فِعْلٍ، وَالْفِعْلُ يَتَعَدَّى إِلَيْهِ، مِثَلُ: ضَرَبَ زَيْدٌ عَمْرًا.</teks>
+      <contoh>كَتَبَ الطَّالِبُ الدَّرْسَ.</contoh>
+      <contoh>قَرَأَ مُحَمَّدٌ الْقُرْآنَ.</contoh>
+      <keterangan>الْمَفْعُولُ بِهِ مَنْصُوبٌ دَائِمًا، وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ الظَّاهِرَةُ فِي الْمُفْرَدِ.</keterangan>
+    </content>
+  </bab>
+
+  <bab id="2" halaman="5">
+    <kategori>مَنْصُوبَاتُ الْأَسْمَاءِ</kategori>
+    <judul>الْمَفْعُولُ لَأَجْلِهِ</judul>
+    <content type="definisi">
+      <teks>الْمَفْعُولُ لَأَجْلِهِ هُوَ اسْمٌ مَنْصُوبٌ يُبَيِّنُ سَبَبَ وُقُوعِ الْفِعْلِ أَوْ وُجُودِ الصِّفَةِ، مِثَلُ: جَلَسْتُ فِي الدَّرْسِ اسْتِمَاعًا.</teks>
+      <contoh>جَاءَ زَيْدٌ مَشْيًا. قَامَ عَمْرٌو إِجْلَالًا.</contoh>
+      <keterangan>وَعَلَامَةُ نَصْبِ الْمَفْعُولِ لَأَجْلِهِ: التَّنْوِينُ أَوْ يَاءُ الْمُثَنَّى أَوْ يَاءُ الْجَمْعِ أَوْ الْكَسْرَةُ فِي الْمُضَافِ إِلَى يَاءِ الْمُتَكَلِّمِ.</keterangan>
+    </content>
+  </bab>
+
+  <khatimah halaman="٤٨">
+    <judul>خَاتِمَةُ الْكِتَابِ</judul>
+    <teks>وَبِهَذَا نَكُونُ قَدْ أَتْمَمْنَا دِرَاسَةَ هَذَا الْمُسْتَوَى الثَّانِي، وَنَسْأَلُ اللَّهَ أَنْ يُفَقِّهَنَا فِي الدِّينِ وَيُعَلِّمَنَا التَّأْوِيلَ.</teks>
+  </khatimah>
+
+</al_muyassar>

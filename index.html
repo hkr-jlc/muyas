@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>المُيَسَّرُ فِي عِلْمِ النَّحْوِ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Level Selector Overlay -->
+    <div id="level-selector" class="level-selector-overlay">
+        <div class="level-selector-container">
+            <div class="book-title-main">
+                <h1 class="book-title-ar">المُيَسَّرُ فِي عِلْمِ النَّحْوِ</h1>
+                <p class="book-subtitle-ar">كِتَابُ النَّحْوِ الْعَرَبِيِّ لِلْمُبْتَدِئِينَ</p>
+                <p class="book-author">تَأْلِيفُ: أ. زَكَرِيَّا بْنُ أَحْمَدَ كَرْخِيٍّ</p>
+                <p class="book-publisher">دَارُ ابْنِ أَزْكَى – IBN AZKA press</p>
+            </div>
+
+            <p class="level-selector-label">اخْتَرِ الْمُسْتَوَى:</p>
+            <div class="level-grid">
+                <div class="level-card" onclick="selectLevel('1')">
+                    <div class="level-badge l1">١</div>
+                    <div class="level-info">
+                        <span class="level-name">المُسْتَوَى الْأَوَّلُ</span>
+                        <span class="level-desc">مُسْتَوَى الْمُبْتَدِئِينَ</span>
+                    </div>
+                    <span class="level-arrow">←</span>
+                </div>
+                <div class="level-card" onclick="selectLevel('2')">
+                    <div class="level-badge l2">٢</div>
+                    <div class="level-info">
+                        <span class="level-name">المُسْتَوَى الثَّانِي</span>
+                        <span class="level-desc">مُسْتَوَى الْمُتَوَسِّطِينَ</span>
+                    </div>
+                    <span class="level-arrow">←</span>
+                </div>
+                <div class="level-card" onclick="selectLevel('3')">
+                    <div class="level-badge l3">٣</div>
+                    <div class="level-info">
+                        <span class="level-name">المُسْتَوَى الثَّالِث</span>
+                        <span class="level-desc">مُسْتَوَى الْمُتَقَدِّمِينَ</span>
+                    </div>
+                    <span class="level-arrow">←</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="drawer-overlay" class="drawer-overlay" onclick="closeDrawer()"></div>
+
+    <!-- Sidebar Drawer (RTL - Right Side) -->
+    <aside id="sidebar-drawer" class="sidebar-drawer">
+        <div class="drawer-header">
+            <div class="drawer-brand">
+                <div class="drawer-logo" id="drawer-logo">المُيَسَّرُ</div>
+                <div class="drawer-subtitle">فِي عِلْمِ النَّحْوِ</div>
+                <div class="drawer-level-info" id="drawer-level-info">اخْتَرِ الْمُسْتَوَى</div>
+            </div>
+            <button class="drawer-close" onclick="closeDrawer()">✕</button>
+        </div>
+        <div class="drawer-level-bar">
+            <button class="level-change-btn" onclick="showLevelSelector()">
+                تَغْيِيرُ الْمُسْتَوَى ←
+            </button>
+        </div>
+        <div class="drawer-content" id="drawer-content"></div>
+    </aside>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <button type="button" class="hamburger-btn" onclick="toggleDrawer()">
+                <span class="hamburger-icon">☰</span>
+            </button>
+            <div class="nav-title" id="current-section-title">المُيَسَّرُ</div>
+            <div class="translate-buttons">
+                <button type="button" class="translate-btn" id="translate-tashkeel-btn" onclick="toggleTashkeel()">
+                    <span class="translate-text" style="font-family: var(--font-arabic);">تَشْكِيل</span>
+                </button>
+                <button type="button" class="translate-btn" id="translate-id-btn" onclick="toggleIndonesian()">
+                    <span class="translate-text">ID</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container" id="main-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

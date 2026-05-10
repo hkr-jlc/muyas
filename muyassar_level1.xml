@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='utf-8'?>
+<al_muyassar level="1">
+  <info_buku>
+    <judul teks_id="Al-Muyassar fi Ilm an-Nahw (Mudah dalam Ilmu Nahwu)">المُيَسَّرُ فِي عِلْمِ النَّحْوِ</judul>
+    <judul_latin>Al-Muyassar fi 'Ilm al-Nahw</judul_latin>
+    <penulis teks_id="A. Zakaria bin Ahmad Karkhi">أ. زَكَرِيَّا بْنُ أَحْمَدَ كَرْخِيٍّ</penulis>
+    <penulis_latin>A. Zakaria bin Ahmad Karkhi</penulis_latin>
+    <penerbit teks_id="Penerbit Dar Ibni Azka">دَارُ ابْنِ أَزْكَى</penerbit>
+    <penerbit_latin>IBN AZKA press</penerbit_latin>
+    <edisi teks_id="Edisi Ketiga">الطِّبَعَةُ الثَّالِثَةُ</edisi>
+    <tahun_hijriyah teks_id="1444 H">١٤٤٤ هـ</tahun_hijriyah>
+    <tahun_masehi teks_id="2023 M">٢٠٢٣ م</tahun_masehi>
+    <level teks_id="1">١</level>
+    <jumlah_halaman teks_id="48">٤٨</jumlah_halaman>
+    <isbn>978-979-3759-34-0</isbn>
+  </info_buku>
+  <pengantar>
+    <item id="muqaddimah" halaman="أ">
+      <judul teks_id="Pendahuluan">المُقَدِّمَةُ</judul>
+      <teks teks_id="Segala puji bagi Allah yang telah menurunkan Al-Quran dalam bahasa Arab agar kamu bertakwa, dan yang telah memudahkan Al-Quran untuk diingat agar kamu memahaminya. Shalawat dan salam semoga tercurah kepada Nabi kita Muhammad, Nabi Arab yang diutus dengan kitab yang mubien (jelas).">الْحَمْدُ لِلَّهِ الَّذِي أَنْزَلَ الْكِتَابَ قِرْآنًا عَرَبِيًّا لِعَلَكُمْ تَتَّقُونَ، وَالَّذِي يَسِّرَ الْقُرْآنَ لِلذِّكْرِ فَلَكُمْ تَفَهَّمُونَ. وَالصَّلَاةُ وَالسَّلَامُ عَلَى نَبِيِّنَا مُحَمَّدٍ النَّبِيِّ الْعَرَبِيِّ الْمَبْعُوثِ بِكِتَابٍ مُبِينٍ.</teks>
+      <teks_lanjutan teks_id="Sesungguhnya kebutuhan seorang muslim untuk mengetahui kaidah-kaidah bahasa Arab sangatlah penting; karena dengan itu ada jalan untuk memahami Al-Quran dan As-Sunnah. Rasulullah ﷺ telah memerintahkan kita untuk berpegang teguh pada keduanya dan mengamalkan apa yang terkandung di dalamnya, dan tidak mungkin kita memahami keduanya dengan pemahaman yang sempurna kecuali setelah mengetahui kaidah-kaidah bahasa Arab.">فَإِنَّ حَاجَةَ الْمُسْلِمِ إِلَى مَعْرِفَةِ قَوَاعِدِ اللُّغَةِ الْعَرَبِيَّةِ ضَرُورِيَّةٌ جِدًّا؛ إِذْ بِهَا سَبَبٌ إِلَى فَهْمِ الْقُرْآنِ وَالسُّنَّةِ. وَقَدْ أَمَرَنَا رَسُولُ اللَّهِ ﷺ أَنْ نَتَمَسَّكَ بِهِمَا وَنَعْمَلَ بِمَا فِيهِمَا، وَلَا يُمْكِنُ أَنْ نَفْهَمَهُمَا فَهْمًا تَامًّا إِلَّا بَعْدَ مَعْرِفَةِ قَوَاعِدِ اللُّغَةِ الْعَرَبِيَّةِ.</teks_lanjutan>
+      <teks_lanjutan2 teks_id="Dan masih banyak kaum muslimin yang beranggapan bahwa kaidah-kaidah bahasa Arab sangat sulit dan rumit, sehingga mustahil bagi siapa pun untuk memahaminya kecuali jika ia mengkhususkan diri dalam mempelajarinya.">وَمَا زَالَ أَكْثَرُ الْمُسْلِمِينَ يَعْتَقِدُونَ أَنَّ قَوَاعِدَ اللُّغَةِ الْعَرَبِيَّةِ عَلَى جَانِبٍ كَبِيرٍ مِنَ الصُّعُوبَةِ وَالتَّعْقِيدِ، بِحَيْثُ يَتَعَذَّرُ عَلَى أَيِّ شَخْصٍ أَنْ يَفْهَمَهَا مَا لَمْ يَتَخَصَّصْ فِي دِرَاسَتِهَا.</teks_lanjutan2>
+      <teks_penutup teks_id="Maka inilah kitab &quot;Al-Muyassar fi Ilm an-Nahw&quot;, dan saya telah menyusunnya dengan gaya bahasa yang mudah serta contoh-contoh yang banyak agar mudah dipahami, terutama bagi para pemula dalam mempelajari ilmu nahwu.">فَهَذَا كِتَابُ "الْمُيَسَّرِ فِي عِلْمِ النَّحْوِ"، وَقَدْ وَضَعْتُهُ بِعِبَارَةٍ سَهْلَةٍ وَأَمْثِلَةٍ كَثِيرَةٍ لِيَسْهُلَ فَهْمُهُ وَلَا سِيَّمَا لِلْمُبْتَدِئِينَ فِي دِرَاسَةِ النَّحْوِ.</teks_penutup>
+      <penulis_ttd teks_id="Penulis: A. Zakaria bin Ahmad Karkhi">الْمُؤَلِّفُ: أ. زَكَرِيَّا بْنُ أَحْمَدَ كَرْخِيٍّ</penulis_ttd>
+      <tempat teks_id="Ramadhan 1441 H">رَمَضَانَ ١٤٤١ هـ</tempat>
+      </item>
+  </pengantar>
+  <daftar_isi>
+    <bab id="1" halaman="1">
+      <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+      <judul teks_id="Huruf (Kata Tugas / Kata Depan)">الْحَرْفُ</judul>
+      </bab>
+    <bab id="2" halaman="1">
+      <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+      <judul teks_id="Kata">الْكَلِمَةُ</judul>
+      </bab>
+    <bab id="3" halaman="1">
+      <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+      <judul teks_id="Kalimat yang Bernilai / Kalam">الْجُمْلَةُ الْمُفِيدَةُ</judul>
+      </bab>
+    <bab id="4" halaman="1">
+      <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+      <judul teks_id="Pembagian Huruf">أَقْسَامُ الْحَرْفِ</judul>
+      </bab>
+    <bab id="5" halaman="2">
+      <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+      <nomor>١</nomor>
+      <judul teks_id="Isim (Kata Benda)">الِاسْمُ</judul>
+      </bab>
+    <bab id="6" halaman="3">
+      <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+      <nomor>٢</nomor>
+      <judul teks_id="Fi'il (Kata Kerja)">الْفِعْلُ</judul>
+      </bab>
+    <bab id="7" halaman="4">
+      <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+      <nomor>٣</nomor>
+      <judul teks_id="Huruf (Kata Tugas / Kata Depan)">الْحَرْفُ</judul>
+      </bab>
+    <bab id="8" halaman="4">
+      <kategori teks_id="Jenis-Jenis Kalimat">أَنْوَاعُ الْجُمْلَةِ</kategori>
+      <judul teks_id="Jenis-Jenis Kalimat">أَنْوَاعُ الْجُمْلَةِ</judul>
+      </bab>
+    <bab id="9" halaman="5">
+      <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+      <judul teks_id="Pembagian Isim">أَقْسَامُ الِاسْمِ</judul>
+      <sub_item num="1" halaman="5" teks_id="Isim Tunggal (Mufrad)">الِاسْمُ الْمُفْرَدُ</sub_item>
+      <sub_item num="2" halaman="5" teks_id="Isim Ganda (Mutsanna / Tsaniy)">الْمُثَنَّى</sub_item>
+      <sub_item num="3" halaman="6" teks_id="Jamak Mudzakar Salim (Jamak Laki-laki Utuh)">جَمْعُ الْمُذَكَّرِ السَّالِمِ</sub_item>
+      <sub_item num="4" halaman="7" teks_id="Jamak Muannats Salim (Jamak Perempuan Utuh)">جَمْعُ الْمُؤَنَّثِ السَّالِمِ</sub_item>
+      <sub_item num="5" halaman="7" teks_id="Jamak Taksir (Jamak Pecahan)">جَمْعُ التَّكْسِيرِ</sub_item>
+      <sub_item num="6" halaman="9" teks_id="Al-Asma'ul Khamsah (Lima Nama Khusus)">الْأَسْمَاءُ الْخَمْسَةُ</sub_item>
+      <sub_item num="7" halaman="9" teks_id="Isim Maqsur (Isim Berakhiran Alif)">الِاسْمُ الْمَقْصُورُ</sub_item>
+      <sub_item num="8" halaman="10" teks_id="Isim Manqus (Isim Berakhiran Ya)">الِاسْمُ الْمَنْقُوصُ</sub_item>
+      <sub_item num="9" halaman="10" teks_id="Isim yang Tidak Menasab (Mamnu' min ash-Sharf)">الِاسْمُ الَّذِي لَا يَنْصَرِفُ</sub_item>
+      </bab>
+    <bab id="10" halaman="11">
+      <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+      <judul teks_id="I'rab dan Bina'">الْإِعْرَابُ وَالْبِنَاءُ</judul>
+      <sub_item halaman="13" teks_id="Isim-isim yang Mu'rab dan Tanda-tanda I'rabnya">الْأَسْمَاءُ الْمُعَرَّبَاتُ وَعَلَامَاتُ إِعْرَابِهَا</sub_item>
+      <sub_item halaman="14" teks_id="Isim-isim yang Mabni">الْأَسْمَاءُ الْمَبْنِيَّاتُ</sub_item>
+      <sub_item halaman="15" teks_id="Tanda-tanda Bina' Isim">عَلَامَاتُ بِنَاءِ الِاسْمِ</sub_item>
+      <sub_item halaman="15" teks_id="Detail Isim-isim yang Tidak Menasab">تَفَاصِيلُ الْأَسْمَاءِ الَّتِي لَا تَنْصَرِفُ</sub_item>
+      <sub_item halaman="16" teks_id="Syarat-syarat Mamnu' min ash-Sharf">شُرُوطُ الْمَمْنُوعِ مِنَ الصَّرْفِ</sub_item>
+      </bab>
+    <bab id="11" halaman="17">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Fi'il Madhi (Kata Kerja Lampau)">الْفِعْلُ الْمَاضِي</judul>
+      </bab>
+    <bab id="12" halaman="18">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Fi'il Mudhari' (Kata Kerja Masa Kini/Akan Datang)">الْفِعْلُ الْمُضَارِعُ</judul>
+      </bab>
+    <bab id="13" halaman="21">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Fi'il Amar (Kata Kerja Perintah)">فِعْلُ الْأَمْرِ</judul>
+      </bab>
+    <bab id="14" halaman="22">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="I'rab al-Af'al (Perubahan Akhir Fi'il)">إِعْرَابُ الْأَفْعَالِ</judul>
+      </bab>
+    <bab id="15" halaman="24">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Fi'il-fi'il yang Mu'rab dan Tanda-tanda I'rabnya">الْأَفْعَالُ الْمُعَرَّبَاتُ وَعَلَامَاتُ إِعْرَابِهَا</judul>
+      </bab>
+    <bab id="16" halaman="25">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Al-Adawat an-Nashibah (Alat-alat yang Menasabkan)">الْأَدَوَاتُ النَّاصِبَةُ</judul>
+      </bab>
+    <bab id="17" halaman="26">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Al-Adawat al-Jazimah (Alat-alat yang Menjazmkan)">الْأَدَوَاتُ الْجَازِمَةُ</judul>
+      </bab>
+    <bab id="18" halaman="30">
+      <kategori teks_id="Tentang Fi'il">فِي الْأَفْعَالِ</kategori>
+      <judul teks_id="Al-Af'al al-Mabniyyah (Fi'il-fi'il yang Mabni)">الْأَفْعَالُ الْمَبْنِيَّةُ</judul>
+      </bab>
+    <bab id="19" halaman="32">
+      <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+      <judul teks_id="Isim (Zhahir dan Dhamir)">الِاسْمُ (ظَاهِرٌ وَضَمِيرٌ)</judul>
+      <sub_item halaman="33" teks_id="Mudzakkar dan Muannats (Laki-laki dan Perempuan)">الْمُذَكَّرُ وَالْمُؤَنَّثُ</sub_item>
+      <sub_item halaman="34" teks_id="Jenis-jenis Muannats (Kefeminian)">أَنْوَاعُ التَّأْنِيثِ</sub_item>
+      </bab>
+    <bab id="20" halaman="34">
+      <kategori teks_id="Al-Marfu'at (Isim-isim yang Dirafa'kan)">مَرْفُوعَاتُ الْأَسْمَاءِ</kategori>
+      <judul teks_id="Al-Marfu'at (Isim-isim yang Dirafa'kan)">مَرْفُوعَاتُ الْأَسْمَاءِ</judul>
+      <sub_item num="1" halaman="34" teks_id="Fa'il (Pelaku)">الْفَاعِلُ</sub_item>
+      <sub_item num="2" halaman="37" teks_id="Na'ib al-Fa'il (Pengganti Pelaku)">نَائِبُ الْفَاعِلِ</sub_item>
+      <sub_item num="3" halaman="39" teks_id="Mubtada' (Subjek)">الْمُبْتَدَأُ</sub_item>
+      </bab>
+    <bab id="21" halaman="44">
+      <kategori teks_id="Al-Marfu'at (Isim-isim yang Dirafa'kan)">مَرْفُوعَاتُ الْأَسْمَاءِ</kategori>
+      <judul teks_id="Kana dan Saudara-saudaranya">كَانَ وَأَخْوَاتُهَا</judul>
+      </bab>
+    <bab id="22" halaman="46">
+      <kategori teks_id="Al-Marfu'at (Isim-isim yang Dirafa'kan)">مَرْفُوعَاتُ الْأَسْمَاءِ</kategori>
+      <judul teks_id="Inna dan Saudara-saudaranya">إِنَّ وَأَخْوَاتُهَا</judul>
+      </bab>
+    <bab id="23" halaman="48">
+      <kategori teks_id="Al-Marfu'at (Isim-isim yang Dirafa'kan)">مَرْفُوعَاتُ الْأَسْمَاءِ</kategori>
+      <judul teks_id="At-Tawabi' (Pengikut-Pengikut)">التَّوَابِعُ</judul>
+      </bab>
+    <bab id="24" halaman="76">
+      <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+      <judul teks_id="Al-Majrurat (Isim-isim yang Dijazmkan / Digerakkan)">الْأَسْمَاءُ الْمَجْرُورَةُ</judul>
+      <sub_item num="1" halaman="76" teks_id="Majrur dengan Huruf Jar">الْمَجْرُورُ بِحَرْفِ الْجَرِّ</sub_item>
+      <sub_item num="2" halaman="77" teks_id="Majrur dengan Idhafah (Kemilikan)">الْمَجْرُورُ بِالْإِضَافَةِ</sub_item>
+      <sub_item num="3" halaman="78" teks_id="Majrur dengan Tawabi'">الْمَجْرُورُ بِالتَّوَابِعِ</sub_item>
+      </bab>
+    <bab id="25" halaman="68">
+      <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+      <judul teks_id="Al-Munada (Yang Dipanggil)">الْمُنَادَى</judul>
+      <sub_item halaman="69" teks_id="Jenis-jenis Munada">أَنْوَاعُ الْمُنَادَى</sub_item>
+      <sub_item halaman="70" teks_id="Hukum Munada">حُكْمُ الْمُنَادَى</sub_item>
+      </bab>
+    <bab id="26" halaman="71">
+      <kategori teks_id="At-Tawabi' (Pengikut-Pengikut)">التَّوَابِعُ</kategori>
+      <judul teks_id="Empat Tawabi'">التَّوَابِعُ الْأَرْبَعَةُ</judul>
+      <sub_item num="1" halaman="80" teks_id="An-Na't atau As-Shifah (Sifat)">النَّعْتُ أَوْ الصِّفَةُ</sub_item>
+      <sub_item num="2" halaman="82" teks_id="Al-'Athf (Penambahan)">الْعَطْفُ</sub_item>
+      <sub_item num="3" halaman="83" teks_id="At-Taukid (Penguatan)">التَّوْكِيدُ</sub_item>
+      <sub_item num="4" halaman="84" teks_id="Al-Badal (Pengganti)">الْبَدَلُ</sub_item>
+      </bab>
+    <bab id="ringkasan1" halaman="72">
+      <kategori teks_id="Ringkasan">خَلَاصَةٌ</kategori>
+      <judul teks_id="Ringkasan Isim-isim yang Dinashabkan (Al-Mansubat)">خَلَاصَةُ الْأَسْمَاءِ الْمَنْصُوبَاتِ</judul>
+      </bab>
+    <bab id="ringkasan2" halaman="86">
+      <kategori teks_id="Ringkasan">خَلَاصَةٌ</kategori>
+      <judul teks_id="Ringkasan Isim-isim Majrur dan Tawabi'">خَلَاصَةُ الْأَسْمَاءِ الْمَجْرُورَاتِ وَالتَّوَابِعِ</judul>
+      </bab>
+  </daftar_isi>
+  <bab id="1" halaman="1">
+    <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+    <judul teks_id="Huruf (Kata Tugas / Kata Depan)">الْحَرْفُ</judul>
+    <content type="definisi">
+      <teks teks_id="Huruf adalah unsur yang tersusun dari padanya kata, contohnya: ب ت ث ن ح.">الْحَرْفُ هُوَ مَا يَتَرَكَّبُ مِنْهُ الْكَلِمَةُ، مِثَلُ: بَ تَ ثَ نَ حَ.</teks>
+      <keterangan teks_id="Huruf adalah unit terkecil dalam bahasa Arab. Kata tersusun dari huruf-huruf, dan maknanya tidak dapat dipahami kecuali bersama huruf lain.">الْحَرْفُ هُوَ أَصْغَرُ وَحْدَةٍ فِي اللُّغَةِ الْعَرَبِيَّةِ. يَتَكَوَّنُ مِنْهُ الْكَلِمَةُ، وَلَا يَفْهَمُ مَعْنَاهُ إِلَّا مَعَ غَيْرِهِ.</keterangan>
+      <catatan teks_id="Perlu diperhatikan bahwa huruf dalam ilmu nahwu memiliki dua makna: Makna pertama: huruf hijaiyah (abjad), dan makna kedua: huruf ma'nawi (kata tugas yang memiliki makna).">يُلَاحَظُ أَنَّ الْحَرْفَ فِي عِلْمِ النَّحْوِ لَهُ مَعْنَيَانِ: الْمَعْنَى الْأَوَّلُ: حَرْفُ الْهِجَاءِ، وَالْمَعْنَى الثَّانِي: حَرْفُ الْمَعْنَى.</catatan>
+      </content>
+  </bab>
+  <bab id="2" halaman="1">
+    <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+    <judul teks_id="Kata">الْكَلِمَةُ</judul>
+    <content type="definisi">
+      <teks teks_id="Kata adalah lafazh yang memiliki makna, contohnya: madrasah (sekolah) – daftar (buku tulis) – mirsam (pensil).">الْكَلِمَةُ هِيَ لَفْظٌ لَهُ مَعْنًى، مِثَلُ: مَدْرَسَةٌ – دَفْتَرٌ – مِرْسَمٌ.</teks>
+      <contoh teks_id="Dia menulis – Dia membaca – Dia duduk.">يَكْتُبُ – يَقْرَأُ – يَجْلِسُ.</contoh>
+      <contoh teks_id="Di atas – Dari – Di dalam.">عَلَى – مِنْ – فِي.</contoh>
+      <keterangan teks_id="Kata terbagi menjadi tiga jenis: Isim (kata benda), Fi'il (kata kerja), dan Huruf (kata tugas/kata depan).">الْكَلِمَةُ تَنْقَسِمُ إِلَى ثَلَاثَةِ أَنْوَاعٍ: الِاسْمُ، وَالْفِعْلُ، وَالْحَرْفُ.</keterangan>
+      </content>
+  </bab>
+  <bab id="3" halaman="1">
+    <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+    <judul teks_id="Kalimat yang Bernilai / Kalam">الْجُمْلَةُ الْمُفِيدَةُ</judul>
+    <content type="definisi">
+      <teks teks_id="Kalimat yang bernilai (jumlah mufidah) adalah susunan kata yang memberikan manfaat yang sempurna dan juga disebut kalam (ucapan), contohnya: Dia duduk di atas kursi.">الْجُمْلَةُ الْمُفِيدَةُ هِيَ التَّرْكِيبُ الَّذِي يُفِيدُ فَائِدَةً تَامَّةً وَتُسَمَّى أَيْضًا كَلَامًا، مِثَلُ: هُوَ يَجْلِسُ عَلَى الْكُرْسِيِّ.</teks>
+      <contoh teks_id="Saya menulis di dalam buku tulis.">أَنَا أَكْتُبُ فِي الدَّفْتَرِ.</contoh>
+      <contoh teks_id="Ali sedang sakit – Ahmad adalah guru – Dia kaya.">عَلِيٌّ مَرِيضٌ – أَحْمَدُ أُسْتَاذٌ – هُوَ غَنِيٌّ.</contoh>
+      <keterangan teks_id="Syarat kalam: harus tersusun dari dua kata atau lebih, dan harus memberikan manfaat yang sempurna.">شَرْطُ الْكَلَامِ: أَنْ يَكُونَ مُرَكَّبًا مِنْ كَلِمَتَيْنِ فَأَكْثَرَ، وَأَنْ يُفِيدَ فَائِدَةً تَامَّةً.</keterangan>
+      </content>
+  </bab>
+  <bab id="4" halaman="1">
+    <kategori teks_id="Pokok-Pokok">الْمَبَادِئُ</kategori>
+    <judul teks_id="Pembagian Huruf">أَقْسَامُ الْحَرْفِ</judul>
+    <content type="diagram">
+      <teks teks_id="Huruf terbagi menjadi dua bagian:">الْحَرْفُ يَنْقَسِمُ إِلَى قِسْمَيْنِ:</teks>
+      <qism id="1">
+        <nama teks_id="Huruf Hijaiyah / Bisu">حَرْفٌ هِجَائِيٌّ / صَامِتٌ</nama>
+        <definisi teks_id="Huruf yang masuk dalam susunan kata-kata.">هُوَ الْحَرْفُ الَّذِي يَدْخُلُ فِي تَرْكِيبِ الْكَلِمَاتِ.</definisi>
+        <contoh teks_id="ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي.">أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ.</contoh>
+        </qism>
+      <qism id="2">
+        <nama teks_id="Huruf Ma'nawi (Kata Tugas)">حَرْفٌ مَعْنَوِيٌّ</nama>
+        <definisi teks_id="Huruf yang maknanya tidak dapat dipahami kecuali bersama kata lain.">هُوَ الْحَرْفُ الَّذِي لَا يَفْهَمُ مَعْنَاهُ إِلَّا مَعَ غَيْرِهِ.</definisi>
+        <contoh teks_id="Min (dari) – Fi (di dalam) – Tsumma (kemudian) – Fa (maka) – Idza (jika) – Hatta (sampai) – Lam (belum) – Lan (tidak akan) – La (tidak) – Li (agar) – Hatta (sampai) – Inna (sesungguhnya) – Anna (bahwa) – Kay (agar) – Lam al-Amr (lam perintah).">مِنْ – فِي – ثُمَّ – فَ – إِذَا – حَتَّى – لَمْ – لَنْ – لَا – لِيْ – حَتَّى – إِنَّ – أَنَّ – كَيْ – لَامُ الْأَمْرِ.</contoh>
+        </qism>
+      <tamrin>
+        <soal id="1" teks_id="Klasifikasikan huruf-huruf berikut menjadi huruf hijaiyah dan ma'nawi: Ba, Min, Ta, Fi, Tsa, Inna.">صَنِّفِ الْحُرُوفَ التَّالِيَةِ إِلَى هِجَائِيَّةٍ وَمَعْنَوِيَّةٍ: بَ، مِنْ، تَ، فِي، ثَ، إِنَّ.</soal>
+        </tamrin>
+    </content>
+  </bab>
+  <bab id="5" halaman="2">
+    <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+    <nomor>١</nomor>
+    <judul teks_id="Isim (Kata Benda)">الِاسْمُ</judul>
+    <content type="definisi">
+      <teks teks_id="Isim adalah kata yang menunjukkan makna dan tidak terkait dengan waktu, contohnya: Muhammad – Guru – Murid – Kuda – Anjing – Kucing – Buku tulis – Pensil – Kapur – Matahari – Bulan – Pepohonan.">الِاسْمُ هُوَ كَلِمَةٌ دَلَّتْ عَلَى مَعْنًى وَلَمْ تَقْتَرِنْ بِزَمَنٍ، مِثَلُ: مُحَمَّدٌ – أُسْتَاذٌ – تِلْمِيذٌ – خَيْلٌ – كَلْبٌ – قِطٌّ – دَفْتَرٌ – مِرْسَمٌ – طَبَاشِيرٌ – شَمْسٌ – قَمَرٌ – أَشْجَارٌ.</teks>
+      </content>
+    <sub_bab id="5-1" halaman="2">
+      <judul teks_id="Tanda-tanda Isim">عَلَامَاتُ الِاسْمِ</judul>
+      <content type="daftar">
+        <item num="1">
+          <judul teks_id="Khafdh dengan Huruf Jar">الْخَفْضُ بِحَرْفِ الْجَرِّ</judul>
+          <teks teks_id="Contoh: Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang.">مِثَلُ: بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ.</teks>
+          <keterangan teks_id="Jika ditemukan huruf jar sebelum sebuah kata, maka kata tersebut adalah isim.">إِذَا وُجِدَ حَرْفُ جَرٍّ قَبْلَ الْكَلِمَةِ فَإِنَّهَا اسْمٌ.</keterangan>
+          </item>
+        <item num="2">
+          <judul teks_id="Tanwin">التَّنْوِينُ</judul>
+          <teks teks_id="Contoh: Laki-laki – Perempuan – Anak laki-laki – Anak perempuan – Kitab.">مِثَلُ: رَجُلٌ – اِمْرَأَةٌ – وَلَدٌ – بِنْتٌ – كِتَابٌ.</teks>
+          <keterangan teks_id="Tanwin adalah nun sukun yang ditambahkan di akhir isim untuk penegasan atau banyaknya.">التَّنْوِينُ هُوَ نُونٌ سَاكِنَةٌ تَزِيدُ فِي آخِرِ الِاسْمِ لِلتَّعْظِيمِ أَوْ لِلتَّكْثِيرِ.</keterangan>
+          </item>
+        <item num="3">
+          <judul teks_id="Alif dan Lam (Ta'rif / Penentuan)">الْأَلِفُ وَاللَّامُ (التَّعْرِيفُ)</judul>
+          <teks teks_id="Contoh: Guru – Murid – Kitab.">مِثَلُ: الْأُسْتَاذُ – الطَّالِبُ – الْكِتَابُ.</teks>
+          <keterangan teks_id="Jika alif dan lam ditemukan di awal kata, maka kata tersebut adalah isim ma'rifah (definitif).">إِذَا وُجِدَتِ الْأَلِفُ وَاللَّامُ فِي أَوَّلِ الْكَلِمَةِ فَإِنَّهَا اسْمٌ مَعْرِفَةٌ.</keterangan>
+          </item>
+        <item num="4">
+          <judul teks_id="Masuknya Huruf-huruf Jar padanya">دُخُولُ حُرُوفِ الْجَرِّ عَلَيْهِ</judul>
+          <teks teks_id="Contoh: Dari Allah, Di dalam rumah, Ke masjid, Di atas kursi, Tentang Nabi.">مِثَلُ: مِنَ اللَّهِ، فِي الْبَيْتِ، إِلَى الْمَسْجِدِ، عَلَى الْكُرْسِيِّ، عَنِ النَّبِيِّ.</teks>
+          <keterangan teks_id="Huruf-huruf jar: Min (dari), Ila (ke), An (tentang), Ala (di atas), Fi (di dalam), Bi (dengan), Ka (seperti), Li (untuk), Mundzu (sejak), Hatta (sampai), Rubba (sesungguhnya), Wawu qasam, Ta' qasam, Mital qasam.">حُرُوفُ الْجَرِّ: مِنْ، إِلَى، عَنْ، عَلَى، فِي، بِ، كَ، لِ، مُنْذُ، حَتَّى، رُبَّ، وَاوُ الْقَسَمِ، تَاءُ الْقَسَمِ، مُتَلَ الْقَسَمِ.</keterangan>
+          </item>
+      </content>
+    </sub_bab>
+  </bab>
+  <bab id="6" halaman="3">
+    <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+    <nomor>٢</nomor>
+    <judul teks_id="Fi'il (Kata Kerja)">الْفِعْلُ</judul>
+    <content type="definisi">
+      <teks teks_id="Fi'il adalah kata yang menunjukkan makna dan terkait dengan waktu, contohnya: Kataba (telah menulis) – Qara'a (telah membaca) – Yaktubu (sedang/akan menulis) – Yaqra'u (sedang/akan membaca) – Uktub (tulislah!) – Iqra' (bacalah!).">الْفِعْلُ هُوَ كَلِمَةٌ دَلَّتْ عَلَى مَعْنًى وَاقْتَرَنَتْ بِزَمَنٍ، مِثَلُ: كَتَبَ – قَرَأَ – يَكْتُبُ – يَقْرَأُ – اِكْتُبْ – اِقْرَأْ.</teks>
+      <keterangan teks_id="Fi'il menunjukkan peristiwa yang terkait dengan waktu. Adapun isim menunjukkan makna tanpa terkait dengan waktu.">الْفِعْلُ يَدُلُّ عَلَى حَدَثٍ وَاقْتِرَانٍ بِزَمَنٍ. أَمَّا الِاسْمُ فَيَدُلُّ عَلَى مَعْنًى بِدُونِ اقْتِرَانٍ بِزَمَنٍ.</keterangan>
+      </content>
+    <sub_bab id="6-1" halaman="3">
+      <judul teks_id="Tanda-tanda Fi'il">عَلَامَاتُ الْفِعْلِ</judul>
+      <content type="daftar">
+        <item num="1">
+          <judul teks_id="Qad">قَدْ</judul>
+          <teks teks_id="Contoh: Sesungguhnya telah berdiri shalat. Sesungguhnya murid itu akan keluar.">مِثَلُ: قَدْ قَامَتِ الصَّلَاةُ. قَدْ يَخْرُجُ الطَّالِبُ.</teks>
+          </item>
+        <item num="2">
+          <judul teks_id="Sin">السِّينُ</judul>
+          <teks teks_id="Contoh: Dia akan pergi – Dia akan kembali – Dia akan menulis.">مِثَلُ: سَيَذْهَبُ – سَيَرْجِعُ – سَيَكْتُبُ.</teks>
+          </item>
+        <item num="3">
+          <judul teks_id="Sawfa">سَوْفَ</judul>
+          <teks teks_id="Contoh: Kamu akan mengetahui. Kami akan berusaha keras dalam pelajaran.">مِثَلُ: سَوْفَ تَعْلَمُونَ. سَوْفَ نَجْتَهِدُ فِي الدَّرْسِ.</teks>
+          </item>
+        <item num="4">
+          <judul teks_id="Ta' Ta'nits Sukunah (Ta penunjuk perempuan)">تَاءُ التَّأْنِيثِ السَّاكِنَةُ</judul>
+          <teks teks_id="Contoh: Dia (perempuan) berkata – Dia (perempuan) pergi – Dia (perempuan) menulis – Dia (perempuan) membaca.">مِثَلُ: قَالَتْ – ذَهَبَتْ – كَتَبَتْ – قَرَأَتْ.</teks>
+          </item>
+      </content>
+    </sub_bab>
+  </bab>
+  <bab id="7" halaman="4">
+    <kategori teks_id="Jenis-Jenis Kata">أَنْوَاعُ الْكَلِمَةِ</kategori>
+    <nomor>٣</nomor>
+    <judul teks_id="Huruf (Kata Tugas / Kata Depan)">الْحَرْفُ</judul>
+    <content type="definisi">
+      <teks teks_id="Huruf adalah kata yang maknanya tidak dapat dipahami kecuali bersama kata lain, contohnya: Min (dari) – Fi (di dalam) – Tsumma (kemudian) – Fa (maka) – Idza (jika) – Hatta (sampai).">الْحَرْفُ هُوَ كَلِمَةٌ لَا تَفْهَمُ مَعْنَاهَا إِلَّا مَعَ غَيْرِهَا، مِثَلُ: مِنْ – فِي – ثُمَّ – فَ – إِذَا – حَتَّى.</teks>
+      <keterangan teks_id="Dan huruf tidak memiliki tanda-tanda khusus. Ia dipahami dari konteks dan dari kalimat yang ia masuki.">وَلَيْسَ لِلْحَرْفِ عَلَامَاتٌ خَاصَّةٌ. هُوَ يَفْهَمُ مِنَ السِّيَاقِ وَمِنَ الْكَلَامِ الَّذِي يَدْخُلُ فِيهِ.</keterangan>
+      </content>
+  </bab>
+  <bab id="8" halaman="4">
+    <kategori teks_id="Jenis-Jenis Kalimat">أَنْوَاعُ الْجُمْلَةِ</kategori>
+    <judul teks_id="Jenis-Jenis Kalimat">أَنْوَاعُ الْجُمْلَةِ</judul>
+    <content type="diagram">
+      <teks teks_id="Kalimat terbagi menjadi dua jenis:">الْجُمْلَةُ تَنْقَسِمُ إِلَى قِسْمَيْنِ:</teks>
+      <qism id="1">
+        <nama teks_id="Kalimat Ismiyah (Kalimat yang diawali Isim)">جُمْلَةٌ اسْمِيَّةٌ</nama>
+        <definisi teks_id="Kalimat yang dibangun di atas isim atau yang didahului oleh isim.">مَا كَانَتْ مَبْنِيَّةً عَلَى الِاسْمِ أَوْ مَا كَانَتْ مَسْبُوقَةً بِاسْمٍ.</definisi>
+        <contoh teks_id="Ahmad sedang sakit.">أَحْمَدُ مَرِيضٌ.</contoh>
+        <contoh teks_id="Anak laki-laki itu membaca Al-Quran.">الْوَلَدُ يَقْرَأُ الْقُرْآنَ.</contoh>
+        <contoh teks_id="Ini adalah kitab yang baru.">هَذَا كِتَابٌ جَدِيدٌ.</contoh>
+        </qism>
+      <qism id="2">
+        <nama teks_id="Kalimat Fi'liyah (Kalimat yang diawali Fi'il)">جُمْلَةٌ فِعْلِيَّةٌ</nama>
+        <definisi teks_id="Kalimat yang didahului oleh fi'il (kata kerja).">مَا كَانَتْ مَسْبُوقَةً بِفِعْلٍ.</definisi>
+        <contoh teks_id="Ali sedang sakit.">مَرِضَ عَلِيٌّ.</contoh>
+        <contoh teks_id="Anak laki-laki itu membaca Al-Quran.">يَقْرَأُ الْوَلَدُ الْقُرْآنَ.</contoh>
+        <contoh teks_id="Murid itu telah menulis pelajaran.">كَتَبَ الطَّالِبُ الدَّرْسَ.</contoh>
+        </qism>
+      <tamrin>
+        <soal id="1" teks_id="Tentukan jenis kalimat-kalimat berikut, apakah ismiyah atau fi'liyah: Apabila telah datang pertolongan Allah dan kemenangan.">حَدِّدْ نَوْعَ الْجُمَلِ التَّالِيَةِ اسْمِيَّةً أَمْ فِعْلِيَّةً: إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ.</soal>
+        <soal id="2" teks_id="Muhammad dan Hasan berusaha keras dalam memahami pelajaran.">اِجْتَهَدَ مُحَمَّدٌ وَحَسَنٌ فِي فَهْمِ الدَّرْسِ.</soal>
+        <soal id="3" teks_id="Apabila salah seorang dari kamu masuk masjid, maka janganlah dia duduk sampai dia shalat dua rakaat.">إِذَا دَخَلْتَ أَحَدَكُمُ الْمَسْجِدَ فَلَا يَجْلِسْ حَتَّى يُصَلِّيَ رَكْعَتَيْنِ.</soal>
+        <soal id="4" teks_id="Sesungguhnya air itu suci, tidak ada sesuatu pun yang menajiskannya.">إِنَّ الْمَاءَ طَهُورٌ لَا يُنَجِّسُهُ شَيْءٌ.</soal>
+        </tamrin>
+    </content>
+  </bab>
+  <bab id="9" halaman="5">
+    <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+    <judul teks_id="Pembagian Isim">أَقْسَامُ الِاسْمِ</judul>
+    <content type="pengantar">
+      <teks teks_id="Isim terbagi menjadi tiga bagian: Mufrad (tunggal), Mutsanna (ganda), dan Jamak (jamak).">الِاسْمُ يَنْقَسِمُ إِلَى ثَلَاثَةِ أَقْسَامٍ: مُفْرَدٍ، وَمُثَنَّى، وَجَمْعٍ.</teks>
+      <diagram>
+        <root teks_id="Pembagian Isim">أَقْسَامُ الِاسْمِ</root>
+        <branch id="1" teks_id="Tunggal">مُفْرَدٌ</branch>
+        <branch id="2" teks_id="Ganda">مُثَنًّى</branch>
+        <branch id="3">جَمْعٌ
+          <sub teks_id="Jamak Mudzakar Salim">جَمْعُ الْمُذَكَّرِ السَّالِمِ</sub>
+          <sub teks_id="Jamak Muannats Salim">جَمْعُ الْمُؤَنَّثِ السَّالِمِ</sub>
+          <sub teks_id="Jamak Taksir">التَّكْسِيرُ</sub>
+          </branch>
+      </diagram>
+    </content>
+    <sub_bab id="9-1" halaman="5">
+      <nomor>١</nomor>
+      <judul teks_id="Isim Tunggal (Mufrad)">الِاسْمُ الْمُفْرَدُ</judul>
+      <content type="definisi">
+        <teks teks_id="Isim tunggal adalah isim yang menunjukkan satu, contohnya: Rumah – Anak laki-laki – Buku tulis – Laki-laki – Murid – Guru – Kitab.">الِاسْمُ الْمُفْرَدُ هُوَ مَا دَلَّ عَلَى وَاحِدٍ، مِثَلُ: بَيْتٌ – وَلَدٌ – دَفْتَرٌ – رَجُلٌ – طَالِبٌ – مُعَلِّمٌ – كِتَابٌ.</teks>
+        <keterangan teks_id="Mufrad adalah asal kata sebelum dianalogikan (diberi bentuk perempuan atau jamak).">الْمُفْرَدُ هُوَ أَصْلُ الْكَلِمَةِ قَبْلَ أَنْ تُؤَنَّثَ أَوْ تُجَمَّعَ.</keterangan>
+        </content>
+    </sub_bab>
+    <sub_bab id="9-2" halaman="5">
+      <nomor>٢</nomor>
+      <judul teks_id="Isim Ganda (Mutsanna)">الْمُثَنَّى</judul>
+      <content type="definisi">
+        <teks teks_id="Mutsanna adalah isim yang menunjukkan dua dengan menambahkan alif dan nun atau ya dan nun di akhirnya, contohnya: Dua rumah – Dua anak laki-laki – Dua buku tulis – Dua murid.">الْمُثَنَّى هُوَ مَا دَلَّ عَلَى اثْنَيْنِ بِزِيَادَةِ أَلِفٍ وَنُونٍ أَوْ يَاءٍ وَنُونٍ فِي آخِرِهِ، مِثَلُ: بَيْتَانِ – وَلَدَانِ – دَفْتَرَانِ – طَالِبَانِ.</teks>
+        <contoh teks_id="Dua rumah (jer) – Dua anak laki-laki (jer) – Dua buku tulis (jer) – Dua murid (jer).">بَيْتَيْنِ – وَلَدَيْنِ – دَفْتَرَيْنِ – طَالِبَيْنِ.</contoh>
+        <qaidah>
+          <teks teks_id="Kaidah Mutsanna: Ditambahkan ke akhir Mufrad alif dan nun untuk rafa', serta ya dan nun untuk nashab dan khafdh.">قَاعِدَةُ الْمُثَنَّى: يُضَافُ إِلَى آخِرِ الْمُفْرَدِ أَلِفٌ وَنُونٌ لِلرَّفْعِ، وَيَاءٌ وَنُونٌ لِلنَّصْبِ وَالْخَفْضِ.</teks>
+          </qaidah>
+        <tamrin>
+          <soal id="1" teks_id="Jadikan mufrad berikut menjadi mutsanna: Buku tulis, Rasul, Kitab, Rumah, Anak laki-laki.">اِجْعَلِ الْمُفْرَدَ مُثَنَّى: دَفْتَرٌ، رَسُولٌ، كِتَابٌ، بَيْتٌ، وَلَدٌ.</soal>
+          </tamrin>
+      </content>
+    </sub_bab>
+    <sub_bab id="9-3" halaman="6">
+      <nomor>٣</nomor>
+      <judul teks_id="Jamak Mudzakar Salim">جَمْعُ الْمُذَكَّرِ السَّالِمِ</judul>
+      <content type="definisi">
+        <teks teks_id="Jamak Mudzakar Salim adalah isim yang menunjukkan jamak dengan menambahkan wawu dan nun atau ya dan nun di akhirnya, contohnya: Muslimun → Muslimuuna – Kafirun → Kafiruuna.">جَمْعُ الْمُذَكَّرِ السَّالِمِ هُوَ مَا دَلَّ عَلَى الْجَمْعِيَّةِ بِزِيَادَةِ وَاوٍ وَنُونٍ أَوْ يَاءٍ وَنُونٍ فِي آخِرِهِ، مِثَلُ: مُسْلِمٌ ← مُسْلِمُونَ – كَافِرٌ ← كَافِرُونَ.</teks>
+        <contoh teks_id="Dua orang kafir → Orang-orang kafir – Dua orang mukmin → Orang-orang mukmin.">كَافِرَانِ ← كَافِرِينَ – مُؤْمِنَانِ ← مُؤْمِنِينَ.</contoh>
+        <qaidah>
+          <teks teks_id="Latihan: Jadikan jamak mudzakar salim: Orang yang sabar, Orang yang berbuat baik, Orang berilmu, Orang yang duduk, Orang yang jujur, Orang beriman, Orang yang berhasil, Orang yang bersyukur.">التَّمْرِينُ: اِجْعَلْ جَمْعًا مُذَكَّرًا سَالِمًا: صَابِرٌ، مُحْسِنٌ، عَالِمٌ، جَالِسٌ، صَادِقٌ، مُؤْمِنٌ، مُفْلِحٌ، شَاكِرٌ.</teks>
+          </qaidah>
+      </content>
+    </sub_bab>
+  </bab>
+  <khatimah halaman="٤٨">
+    <judul teks_id="Aplikasi Nahwi dalam I'rab Al-Quran">التَّطْبِيقُ النَّحْوِيُّ فِي إِعْرَابِ الْقُرْآنِ</judul>
+    <teks teks_id="Dan telah dilampirkan pada kitab ini aplikasi-aplikasi nahwi dari Al-Quran Al-Karim agar murid mampu melakukan i'rab ayat-ayat Al-Quran Al-Karim.">وَقَدْ أُلْحِقَ بِهَذَا الْكِتَابِ تَطْبِيقَاتٌ نَّحْوِيَّةٌ مِنَ الْقُرْآنِ الْكَرِيمِ لِيَتَمَكَّنَ الطَّالِبُ مِنْ إِعْرَابِ آيَاتِ الْقُرْآنِ الْكَرِيمِ.</teks>
+    </khatimah>
+  <bab id="24" halaman="76">
+    <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+    <judul teks_id="Al-Majrurat (Isim-isim yang Dijazmkan / Digerakkan)">الْأَسْمَاءُ الْمَجْرُورَةُ</judul>
+    <content type="definisi">
+      <teks teks_id="Al-Majrurat adalah isim-isim yang didatangkan dengan huruf jar atau dengan idhafah atau dengan tawabi'.">الْمَجْرُورَاتُ هِيَ أَسْمَاءٌ تَأْتِي بِحَرْفِ جَرٍّ أَوْ بِالْإِضَافَةِ أَوْ بِالتَّوَابِعِ.</teks>
+      <keterangan teks_id="Isim-isim majrur terbagi menjadi tiga bagian: Majrur dengan huruf jar, Majrur dengan idhafah, dan Majrur dengan tawabi'.">الْأَسْمَاءُ الْمَجْرُورَةُ تَنْقَسِمُ إِلَى ثَلَاثَةِ أَقْسَامٍ: الْمَجْرُورُ بِحَرْفِ الْجَرِّ، وَالْمَجْرُورُ بِالْإِضَافَةِ، وَالْمَجْرُورُ بِالتَّوَابِعِ.</keterangan>
+      </content>
+    <sub_bab id="24-1" halaman="76">
+      <nomor>١</nomor>
+      <judul teks_id="Majrur dengan Huruf Jar">الْمَجْرُورُ بِحَرْفِ الْجَرِّ</judul>
+      <content type="definisi">
+        <teks teks_id="Adalah setiap isim yang masuk padanya huruf dari huruf-huruf jar, sehingga huruf jar tersebut menjazmkannya (menggerakkannya) dengan kasrah.">هُوَ كُلُّ اسْمٍ يَدْخُلُ عَلَيْهِ حَرْفٌ مِنْ حُرُوفِ الْجَرِّ، فَيَجْرِيهِ بِالْكَسْرَةِ.</teks>
+        <contoh teks_id="Saya pergi ke sekolah.">ذَهَبْتُ إِلَى الْمَدْرَسَةِ.</contoh>
+        <contoh teks_id="Saya duduk di dalam masjid.">جَلَسْتُ فِي الْمَسْجِدِ.</contoh>
+        <contoh teks_id="Saya melewati murid.">مَرَرْتُ بِالطَّالِبِ.</contoh>
+        <keterangan teks_id="Huruf-huruf jar: Min (dari), Ila (ke), An (tentang), Ala (di atas), Fi (di dalam), Bi (dengan), Ka (seperti), Li (untuk), Mundzu (sejak), Hatta (sampai), Rubba (sesungguhnya), Wawu qasam, Ta' qasam, Mital qasam.">حُرُوفُ الْجَرِّ: مِنْ، إِلَى، عَنْ، عَلَى، فِي، بِ، كَ، لِ، مُنْذُ، حَتَّى، رُبَّ، وَاوُ الْقَسَمِ، تَاءُ الْقَسَمِ، مُتَلَ الْقَسَمِ.</keterangan>
+        </content>
+    </sub_bab>
+    <sub_bab id="24-2" halaman="77">
+      <nomor>٢</nomor>
+      <judul teks_id="Majrur dengan Idhafah">الْمَجْرُورُ بِالْإِضَافَةِ</judul>
+      <content type="definisi">
+        <teks teks_id="Adalah setiap isim yang diidhafahkan kepada isim majrur atau kepada dhamir muttasil yang berkedudukan sebagai jar.">هُوَ كُلُّ اسْمٍ يُضَافُ إِلَى مَجْرُورٍ أَوْ إِلَى ضَمِيرٍ مُتَّصِلٍ فِي مَحَلِّ جَرٍّ.</teks>
+        <contoh teks_id="Kamar murid.">غُرْفَةُ الطَّالِبِ.</contoh>
+        <contoh teks_id="Kitab Muhammad.">كِتَابُ مُحَمَّدٍ.</contoh>
+        <contoh teks_id="Rumahmu.">بَيْتُكَ.</contoh>
+        <keterangan teks_id="Syarat-syarat idhafah:&#10;1. Bahwa mudhaf (yang diidhafahkan) itu munsarif (bisa ditanwini/dirobahi).&#10;2. Bahwa nun dari mutsanna dan jamak mudzakar salim dihapuskan.&#10;3. Bahwa tanwin dari mufrad dihapuskan.">شُرُوطُ الْإِضَافَةِ:
+١. أَنْ يَكُونَ الْمُضَافُ مُنْصَرِفًا.
+٢. أَنْ يُحَذَّفَ النُّونُ مِنَ الْمُثَنَّى وَجَمْعِ الْمُذَكَّرِ السَّالِمِ.
+٣. أَنْ يُحَذَّفَ التَّنْوِينُ مِنَ الْمُفْرَدِ.</keterangan>
+        </content>
+    </sub_bab>
+    <sub_bab id="24-3" halaman="78">
+      <nomor>٣</nomor>
+      <judul teks_id="Majrur dengan Tawabi'">الْمَجْرُورُ بِالتَّوَابِعِ</judul>
+      <content type="definisi">
+        <teks teks_id="Adalah isim yang mengikuti isim majrur dalam kejazmannya (penggerakannya).">هُوَ اسْمٌ يَتْبَعُ اسْمًا مَجْرُورًا فِي جَرِّهِ.</teks>
+        <contoh teks_id="Saya melewati murid yang rajin.">مَرَرْتُ بِالطَّالِبِ الْمُجْتَهِدِ.</contoh>
+        <keterangan teks_id="Tawabi' ada empat: An-Na't (sifat), Al-'Athf (penambahan), At-Taukid (penguatan), dan Al-Badal (pengganti).">التَّوَابِعُ أَرْبَعَةٌ: النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ.</keterangan>
+        </content>
+    </sub_bab>
+  </bab>
+  <bab id="25" halaman="68">
+    <kategori teks_id="Tentang Isim">فِي الْأَسْمَاءِ</kategori>
+    <judul teks_id="Al-Munada (Yang Dipanggil)">الْمُنَادَى</judul>
+    <content type="definisi">
+      <teks teks_id="Al-Munada adalah isim yang dipanggil setelah huruf panggilan, contohnya: Wahai hamba Allah. Wahai Rasulullah.">الْمُنَادَى اسْمٌ يُنَادَى بِعَدَّ حَرْفِ نِدَاءٍ، مِثَلُ: يَا عَبْدَ اللَّهِ. يَا رَسُولَ اللَّهِ.</teks>
+      <keterangan teks_id="Dan huruf-huruf panggilan: Ya, Ayyu, Ayy, Hayya, Wa.">وَحُرُوفُ النِّدَاءِ: يَا، أَيَّا، أَيَّ، هَيَّا، وَا.</keterangan>
+      </content>
+    <sub_bab id="25-1" halaman="69">
+      <judul teks_id="Jenis-jenis Munada">أَنْوَاعُ الْمُنَادَى</judul>
+      <content type="daftar">
+        <item num="1">
+          <judul teks_id="Munada 'Alam Mufrad (Nama diri tunggal)">الْمُنَادَى الْعَلَمُ الْمُفْرَدُ</judul>
+          <teks teks_id="Contoh: Wahai Ali. Wahai Muhammad.">مِثَلُ: يَا عَلِيُّ. يَا مُحَمَّدُ.</teks>
+          </item>
+        <item num="2">
+          <judul teks_id="Nakirah Muqashshadah (Tidak tentu yang dimaksudkan)">النَّكِرَةُ الْمُقَصَّدَةُ</judul>
+          <teks teks_id="Contoh: Wahai laki-laki. Wahai murid.">مِثَلُ: يَا رَجُلُ. يَا طَالِبُ.</teks>
+          </item>
+        <item num="3">
+          <judul teks_id="Nakirah Ghairu Muqashshadah (Tidak tentu yang tidak dimaksudkan)">النَّكِرَةُ غَيْرُ الْمُقَصَّدَةِ</judul>
+          <teks teks_id="Contoh: Wahai dua laki-laki. Wahai para muslim.">مِثَلُ: يَا رَجُلَانِ. يَا مُسْلِمُونَ.</teks>
+          </item>
+        <item num="4">
+          <judul teks_id="Mudhaf ila Ma'rifah (Ditambahkan kepada isim ma'rifah)">الْمُضَافُ إِلَى مَعْرِفَةٍ</judul>
+          <teks teks_id="Contoh: Wahai Abu Bakar. Wahai budak Ahmad.">مِثَلُ: يَا أَبَا بَكْرٍ. يَا غُلَامَ أَحْمَدَ.</teks>
+          </item>
+        <item num="5">
+          <judul teks_id="Syabih bil-Mudhaf (Yang menyerupai mudhaf)">الشَّبِيهُ بِالْمُضَافِ</judul>
+          <teks teks_id="Contoh: Wahai orang yang menaiki gunung. Wahai orang yang berlari di antara dua gunung.">مِثَلُ: يَا طَالِعًا جَبَلًا. يَا سَاعِيًا بَيْنَ الْجَبَلَيْنِ.</teks>
+          </item>
+        <item num="6">
+          <judul teks_id="Mudhaf ila Nakirah (Ditambahkan kepada isim nakirah)">الْمُضَافُ إِلَى نَكِرَةٍ</judul>
+          <teks teks_id="Contoh: Wahai penjaga rumah. Wahai penulis kitab.">مِثَلُ: يَا رَجُلَ دَارٍ. يَا كَاتِبَ كِتَابٍ.</teks>
+          </item>
+      </content>
+    </sub_bab>
+    <sub_bab id="25-2" halaman="70">
+      <judul teks_id="Hukum Munada">حُكْمُ الْمُنَادَى</judul>
+      <content type="daftar">
+        <item num="1">
+          <judul teks_id="Munada 'Alam Mufrad dinashabkan sebagai munada">الْمُنَادَى الْعَلَمُ الْمُفْرَدُ يَنْصِبُ عَلَى الْمُنَادَى</judul>
+          <teks teks_id="Contoh: Wahai Ali. Wahai Muhammad.">مِثَلُ: يَا عَلِيُّ. يَا مُحَمَّدُ.</teks>
+          </item>
+        <item num="2">
+          <judul teks_id="Nakirah Muqashshadah dinashabkan sebagai munada">النَّكِرَةُ الْمُقَصَّدَةُ تَنْصَبُ عَلَى الْمُنَادَى</judul>
+          <teks teks_id="Contoh: Wahai laki-laki. Wahai murid.">مِثَلُ: يَا رَجُلُ. يَا طَالِبُ.</teks>
+          </item>
+        <item num="3">
+          <judul teks_id="Nakirah Ghairu Muqashshadah mengikuti apa yang ia ikuti dalam i'rab">النَّكِرَةُ غَيْرُ الْمُقَصَّدَةِ تَجْرِي عَلَى مَا تَجْرِي عَلَيْهِ فِي الْإِعْرَابِ</judul>
+          <teks teks_id="Contoh: Wahai dua laki-laki. Wahai para muslim.">مِثَلُ: يَا رَجُلَانِ. يَا مُسْلِمُونَ.</teks>
+          </item>
+      </content>
+    </sub_bab>
+    <sub_bab id="25-3" halaman="71">
+      <judul teks_id="Latihan: Masukkan alat-alat panggilan pada yang berikut">التَّمْرِينُ: أَدْخِلْ أَدَوَاتِ النِّدَاءِ فِيمَا يَأْتِي</judul>
+      <content type="tamrin">
+        <soal id="1" teks_id="Abu Bakar">أَبُو بَكْرٍ</soal>
+        <soal id="2" teks_id="Ibnu Umar">ابْنُ عُمَرَ</soal>
+        <soal id="3" teks_id="Salim">سَالِمٌ</soal>
+        <soal id="4" teks_id="Saudara Ali">أَخَو عَلِيٍّ</soal>
+        <soal id="5" teks_id="Orang berilmu – Guru">الْعَالِمُ – الْمُدَرِّسُ</soal>
+        <soal id="6" teks_id="Murid ilmu yang tercela">طَالِبُ عِلْمٍ مَذْمُومٌ</soal>
+        <soal id="7" teks_id="Muhammad dan Asy-Syathibi">مُحَمَّدٌ وَالشَّاطِبِيُّ</soal>
+        <soal id="8" teks_id="Rafi' di atas dipan">رَافِعُ عَلَى السَّرِيرِ</soal>
+        <soal id="9" teks_id="Musuh orang berakal lebih baik dari teman orang bodoh">عَدُوُّ الْعَاقِلِ خَيْرٌ مِنْ صَدِيقِ جَاهِلٍ</soal>
+        <soal id="10" teks_id="Pembawa kitab yang bermanfaat">حَامِلُ الْكِتَابِ الْمُفِيدِ</soal>
+        </content>
+    </sub_bab>
+  </bab>
+  <bab id="26" halaman="71">
+    <kategori teks_id="At-Tawabi' (Pengikut-Pengikut)">التَّوَابِعُ</kategori>
+    <judul teks_id="At-Tawabi' (Pengikut-Pengikut)">التَّوَابِعُ</judul>
+    <content type="definisi">
+      <teks teks_id="Adapun tawabi' maka ia mengikuti (isim yang diikutinya) dalam makna dan i'rab. Tawabi' ada empat: An-Na't, Al-'Athf, At-Taukid, dan Al-Badal.">أَمَّا التَّوَابِعُ فَيَتْبَعُ فِيهَا فِي الْمَعْنَى وَالْإِعْرَابِ. التَّوَابِعُ أَرْبَعَةٌ: النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ.</teks>
+      </content>
+    <sub_bab id="26-1" halaman="80">
+      <nomor>١</nomor>
+      <judul teks_id="An-Na't atau As-Shifah (Sifat)">النَّعْتُ أَوْ الصِّفَةُ</judul>
+      <content type="definisi">
+        <teks teks_id="An-Na't atau As-Shifah adalah pengikut yang datang untuk menjelaskan salah satu sifat dari yang disifati. Seharusnya na't mengikuti yang disifati dalam i'rabnya, penentuan (ma'rifah/nakirah), dan ketidaktentuan.">النَّعْتُ أَوْ الصِّفَةُ هُوَ تَابِعٌ يَأْتِي لِبَيَانِ صِفَةٍ مِنْ صِفَاتِ الْمَنْعُوتِ. يَنْبَغِي أَنْ يَتَّبِعَ النَّعْتُ مَنْعُوتَهُ فِي إِعْرَابِهِ، وَالتَّعْرِيفِ، وَالتَّنْكِيرِ.</teks>
+        <contoh teks_id="Telah datang murid yang rajin.">جَاءَ التَّلْمِيذُ الْمُجْتَهِدُ.</contoh>
+        <contoh teks_id="Telah datang anak laki-laki yang cerdik (tsaniy).">جَاءَ وَلَدُ الشَّيْطِ.</contoh>
+        <contoh teks_id="Saya melihat anak laki-laki yang cerdik (nashab).">رَأَيْتُ وَلَدَ النَّشِيْطِ.</contoh>
+        <contoh teks_id="Saya melewati murid yang rajin.">مَرَرْتُ بِالتَّلْمِيذِ الْمُجْتَهِدِ.</contoh>
+        <contoh teks_id="Saya melewati anak laki-laki yang cerdik (jar).">مَرَرْتُ بِوَلَدِ الشَّيْطِ.</contoh>
+        </content>
+    </sub_bab>
+    <sub_bab id="26-2" halaman="82">
+      <nomor>٢</nomor>
+      <judul teks_id="Al-'Athf (Penambahan/Pengikatan)">الْعَطْفُ</judul>
+      <content type="definisi">
+        <teks teks_id="Al-'Athf adalah pengikut yang terletak setelah huruf athf. Dan huruf-huruf athf: Wawu, Tsumma, Aw, Am, Lakin, La, Bal.">الْعَطْفُ تَابِعٌ يَقَعُ بَعْدَ حَرْفِ الْعَطْفِ. وَأَحْرُفُ الْعَطْفِ: الْوَاوُ، ثُمَّ، أَوْ، أَمْ، لَكِنْ، لَا، بَلْ.</teks>
+        <contoh teks_id="Telah datang Khalid dan Salim.">جَاءَ خَالِدٌ وَسَالِمٌ.</contoh>
+        <contoh teks_id="Saya melihat Khalid dan Salim.">رَأَيْتُ خَالِدًا وَسَالِمًا.</contoh>
+        <contoh teks_id="Sesungguhnya harta dan anak-anak.">إِنَّ الْمَالَ وَالْبَنِينَ.</contoh>
+        <contoh teks_id="Dan sebagaimana isim diathafkan kepada isim, demikian pula fi'il diathafkan kepada fi'il.">وَكَمَا يُعَطَّفُ الِاسْمُ عَلَى الِاسْمِ، كَذَلِكَ يُعَطَّفُ الْفِعْلُ عَلَى الْفِعْلِ.</contoh>
+        </content>
+    </sub_bab>
+    <sub_bab id="26-3" halaman="83">
+      <nomor>٣</nomor>
+      <judul teks_id="At-Taukid (Penguatan)">التَّوْكِيدُ</judul>
+      <content type="definisi">
+        <teks teks_id="At-Taukid adalah pengikut yang disebutkan setelah yang diikutinya untuk menguatkannya dan menghilangkan keraguan yang mungkin masuk padanya. Taukid terbagi menjadi dua: Taukid lafzi (lisan) dan Taukid ma'nawi (makna).">التَّوْكِيدُ تَابِعٌ يُذَكَّرُ بِعَدَّ مُتْبُوعِهِ لِيُؤَكِّدَهُ وَيُزِيلَ مَا يَمْكِنُ أَنْ يَدْخُلَ عَلَيْهِ مِنَ الشَّكِّ. التَّوْكِيدُ عَلَى قِسْمَيْنِ: تَوْكِيدٌ لَفْظِيٌّ، وَتَوْكِيدٌ مَعْنَوِيٌّ.</teks>
+        <contoh teks_id="Allah Maha Besar – Allah Maha Besar. Saya menulis saya menulis. Ya ya.">اللَّهُ أَكْبَرُ – اللَّهُ أَكْبَرُ. أَكْتُبُ أَكْتُبُ. نَعَمْ نَعَمْ.</contoh>
+        <contoh teks_id="'Ain: Dia menemui pemimpinnya sendiri. Kull: Telah hadir anak-anak semuanya. Ajma': Dan kepada orang yang bersama-sama dengannya semuanya. Kila: Telah hadir dua guru keduanya. Kilata: Telah hadir dua guru perempuan keduanya.">عَيْنُ: قَابَلَ الرَّئِيسَ عَيْنُهُ. كُلُّ: حَضَرَ الْأَوْلَادُ كُلُّهُمْ. أَجْمَعُ: وَعَلَى الَّذِي وَصَحَبِهِ أَجْمَعِينَ. كِلَا: حَضَرَ الْمُدَرِّسَانِ كِلَاهُمَا. كِلْتَا: حَضَرَتِ الْمُدَرِّسَتَانِ كِلْتَاهُمَا.</contoh>
+        </content>
+    </sub_bab>
+    <sub_bab id="26-4" halaman="84">
+      <nomor>٤</nomor>
+      <judul teks_id="Al-Badal (Pengganti)">الْبَدَلُ</judul>
+      <content type="definisi">
+        <teks teks_id="Al-Badal adalah pengikut yang boleh dihapus yang diikutinya dan digantikan dengannya, contohnya: Telah hadir saudaramu yaitu Hasan. Telah datang Muhammad yaitu Rasulullah.">الْبَدَلُ تَابِعٌ يَصِحُّ أَنْ يُحَذَّفَ مَتْبُوعُهُ وَيُجْعَلُ بَدَلًا مِنْهُ، مِثَلُ: حَضَرَ أَخُوكَ حَسَنٌ. جَاءَ مُحَمَّدٌ رَسُولُ اللَّهِ.</teks>
+        <contoh teks_id="Berkata Abdullah bin Umar. Berkata Imam Malik.">قَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ. قَالَ الْإِمَامُ مَالِكٌ.</contoh>
+        <keterangan teks_id="Dan jenis-jenis badal: Badal sebagian dari keseluruhan, Badal isytimal (penyertaan), Badal sebagian dari keseluruhan, Badal galat (kesalahan).">وَأَنْوَاعُ الْبَدَلِ: بَدَلُ بَعْضٍ مِنْ كُلٍّ، بَدَلُ الْإِشْتِمَالِ، بَدَلُ الْبَعْضِ مِنَ الْكُلِّ، بَدَلُ الْغَلَطِ.</keterangan>
+        </content>
+    </sub_bab>
+  </bab>
+  <bab id="ringkasan1" halaman="72">
+    <kategori teks_id="Ringkasan">خَلَاصَةٌ</kategori>
+    <judul teks_id="Ringkasan Isim-isim yang Dinashabkan (Al-Mansubat)">خَلَاصَةُ الْأَسْمَاءِ الْمَنْصُوبَاتِ</judul>
+    <content type="diagram">
+      <teks teks_id="Isim-isim yang dinashabkan ada tiga belas:">الْأَسْمَاءُ الْمَنْصُوبَةُ ثَلَاثَةَ عَشَرَ:</teks>
+      <qism id="1">
+        <nama teks_id="(1) Maf'ul Bih (Objek)">(١) الْمَفْعُولُ بِهِ</nama>
+        <definisi teks_id="Zhahir dan Dhamir">ظَاهِرٌ وَضَمِيرٌ</definisi>
+        <contoh teks_id="Saya meminum susu.">شَرِبْتُ اللَّبَنَ.</contoh>
+        <contoh teks_id="Saya memberikan kepadamu.">أَعْطَيْتُكَ.</contoh>
+        </qism>
+      <qism id="2">
+        <nama teks_id="(2) Maf'ul Li-Ajlihi (Objek karena sesuatu)">(٢) الْمَفْعُولُ لَأَجْلِهِ</nama>
+        <definisi teks_id="Saya shalat dengan tujuan mencari keridhaan Allah.">صَلَيْتُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ.</definisi>
+        </qism>
+      <qism id="3">
+        <nama teks_id="(3) Maf'ul Fihi (Keterangan tempat/waktu)">(٣) الْمَفْعُولُ فِيهِ</nama>
+        <definisi teks_id="Keterangan waktu dan keterangan tempat">ظَرْفُ الزَّمَانِ وَظَرْفُ الْمَكَانِ</definisi>
+        <contoh teks_id="Saya berpuasa pada hari Senin.">صُمْتُ يَوْمَ الِاثْنَيْنِ.</contoh>
+        <contoh teks_id="Saya berdiri di hadapan guru.">قُمْتُ أَمَامَ الْأُسْتَاذِ.</contoh>
+        </qism>
+      <qism id="4">
+        <nama teks_id="(4) Maf'ul Mutlaq (Objek mutlak)">(٤) الْمَفْعُولُ الْمُطْلَقُ</nama>
+        <definisi teks_id="Untuk menegaskan fi'il atau menjelaskan jenisnya atau menjelaskan macamnya atau menjelaskan jumlahnya.">لِتَأْكِيدِ الْفِعْلِ أَوْ لِبَيَانِ جِنْسِهِ أَوْ لِبَيَانِ نَوْعِهِ أَوْ لِبَيَانِ عَدَدِهِ</definisi>
+        <contoh teks_id="Saya memukul sebuah pukulan.">ضَرَبْتُ ضَرْبًا.</contoh>
+        <contoh teks_id="Saya memukul pukulan yang keras.">ضَرَبْتُ ضَرْبَةً شَدِيدَةً.</contoh>
+        <contoh teks_id="Saya memukul dua pukulan.">ضَرَبْتُ ضَرْبَتَيْنِ.</contoh>
+        </qism>
+      <qism id="5">
+        <nama teks_id="(5) Maf'ul Ma'ahu (Objek bersamaan)">(٥) الْمَفْعُولُ مَعَهُ</nama>
+        <definisi teks_id="Ali berjalan bersama sungai.">سَارَ عَلِيٌّ وَالنَّهْرُ.</definisi>
+        </qism>
+      <qism id="6">
+        <nama teks_id="(6) Hal (Keterangan keadaan)">(٦) الْحَالُ</nama>
+        <definisi teks_id="Tunggal – Kalimat ismiyah – Kalimat fi'liyah">مُفَرَّدَةٌ – جُمْلَةٌ اسْمِيَّةٌ – جُمْلَةٌ فِعْلِيَّةٌ</definisi>
+        <contoh teks_id="Saya shalat dalam keadaan duduk.">صَلَّيْتُ جَالِسًا.</contoh>
+        <contoh teks_id="Janganlah kamu minum sedangkan kamu berdiri.">لَا تَشْرَبْ وَأَنْتَ قَائِمٌ.</contoh>
+        <contoh teks_id="Telah datang anak laki-laki sambil menangis.">جَاءَ الْوَلَدُ يَبْكِي.</contoh>
+        </qism>
+      <qism id="7">
+        <nama teks_id="(7) Tamyiz (Pembeda)">(٧) التَّمْيِيزُ</nama>
+        <definisi teks_id="Tampak (mauhub) – Tidak tampak (ghairu mauhub)">مَلْحُوظٌ – غَيْرُ مَلْحُوظٍ</definisi>
+        </qism>
+      <qism id="8">
+        <nama teks_id="(8) Mustatsna (Pengecualian)">(٨) الْمُسْتَثْنَى</nama>
+        <definisi teks_id="Dengan illa – Dengan ghairu dan siwa – Dengan khala, 'ada, dan hasya">بِإِلَّا – بِغَيْرِ وَسِوَى – بِخَلَا وَعَدَا وَحَاشَا</definisi>
+        </qism>
+      <qism id="9">
+        <nama teks_id="(9) Khabar Kana (Predikat Kana)">(٩) خَبَرُ كَانَ</nama>
+        <definisi teks_id="Muhammad adalah nabi. Ali berada di rumah/shalat.">كَانَ مُحَمَّدٌ نَبِيًّا. كَانَ عَلِيٌّ فِي الْبَيْتِ/يُصَلِّي.</definisi>
+        </qism>
+      <qism id="10">
+        <nama teks_id="(10) Ism Inna (Subjek Inna)">(١٠) اسْمُ إِنَّ</nama>
+        <definisi teks_id="Zhahir dan Dhamir">ظَاهِرٌ وَضَمِيرٌ</definisi>
+        <contoh teks_id="Sesungguhnya Allah Maha Mengetahui lagi Maha Bijaksana.">إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ.</contoh>
+        <contoh teks_id="Sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang.">إِنَّكَ غَفُورٌ رَّحِيمٌ.</contoh>
+        </qism>
+      <qism id="11">
+        <nama teks_id="(11) Al-Munada (Yang dipanggil)">(١١) الْمُنَادَى</nama>
+        <definisi teks_id="Nakirah muqashshadah – Mansub – Syabih bil-mudhaf">نَكِرَةٌ مُقَصَّدَةٌ – مَنْصُوبٌ – شَبِيهٌ بِالْمُضَافِ</definisi>
+        </qism>
+      <qism id="12">
+        <nama teks_id="(12) Empat Tawabi'">(١٢) التَّوَابِعُ الْأَرْبَعَةُ</nama>
+        <definisi>النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ</definisi>
+      </qism>
+    </content>
+  </bab>
+  <bab id="ringkasan2" halaman="86">
+    <kategori teks_id="Ringkasan">خَلَاصَةٌ</kategori>
+    <judul teks_id="Ringkasan Isim-isim Majrur dan Tawabi'">خَلَاصَةُ الْأَسْمَاءِ الْمَجْرُورَاتِ وَالتَّوَابِعِ</judul>
+    <content type="diagram">
+      <teks teks_id="Al-Majrurat ada tiga bagian:">الْمَجْرُورَاتُ ثَلَاثَةُ أَقْسَامٍ:</teks>
+      <qism id="1">
+        <nama teks_id="1. Majrur dengan huruf jar">١. الْمَجْرُورُ بِحَرْفِ الْجَرِّ</nama>
+        <contoh teks_id="Dari manusia – Di dalam hati mereka.">مِنَ النَّاسِ – فِي قُلُوبِهِمْ.</contoh>
+        </qism>
+      <qism id="2">
+        <nama teks_id="2. Majrur dengan idhafah">٢. الْمَجْرُورُ بِالْإِضَافَةِ</nama>
+        <contoh teks_id="Rumah Allah – Pintu tayammum.">بَيْتُ اللَّهِ – بَابُ التَّيَمُّمِ.</contoh>
+        </qism>
+      <qism id="3">
+        <nama teks_id="3. Majrur dengan tawabi'">٣. الْمَجْرُورُ بِالتَّوَابِعِ</nama>
+        <definisi teks_id="An-Na't, Al-'Athf, At-Taukid, dan Al-Badal.">النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ.</definisi>
+        </qism>
+      <teks_lanjutan teks_id="Empat Tawabi':">التَّوَابِعُ الْأَرْبَعَةُ:</teks_lanjutan>
+      <qism id="4">
+        <nama teks_id="An-Na't atau As-Shifah">النَّعْتُ أَوْ الصِّفَةُ</nama>
+        <contoh teks_id="Telah datang seorang laki-laki yang shaleh. Telah datang seorang perempuan yang shalehah.">جَاءَ رَجُلٌ صَالِحٌ. جَاءَتِ امْرَأَةٌ صَالِحَةٌ.</contoh>
+        </qism>
+      <qism id="5">
+        <nama teks_id="Al-'Athf">الْعَطْفُ</nama>
+        <contoh teks_id="Isim diathafkan kepada isim: Telah datang Khalid dan Salim. Fi'il diathafkan kepada fi'il: Jika kamu beriman dan bertakwa.">عَطَفَ الْإِسْمُ عَلَى الْإِسْمِ: جَاءَ خَالِدٌ وَسَالِمٌ. عَطَفَ الْفِعْلُ عَلَى الْفِعْلِ: إِنْ تَؤْمِنُوا وَتَتَّقُوا.</contoh>
+        </qism>
+      <qism id="6">
+        <nama teks_id="At-Taukid">التَّوْكِيدُ</nama>
+        <definisi teks_id="Lafzi dan Ma'nawi">لَفْظِيٌّ وَمَعْنَوِيٌّ</definisi>
+        <contoh teks_id="Telah hadir guru sendiri. Saya melihat pangeran sendiri.">حَضَرَ أُسْتَاذُ نَفْسُهُ. رَأَيْتُ الْأَمِيرَ نَفْسَهُ.</contoh>
+        </qism>
+      <qism id="7">
+        <nama teks_id="Al-Badal">الْبَدَلُ</nama>
+        <contoh teks_id="Telah hadir saudaramu, ayahmu. Telah hadir para guru perempuan keduanya.">حَضَرَ أَخُوكَ أَبُوكَ. حَضَرَتِ الْمُدَرِّسَاتُ كِلْتَاهُمَا.</contoh>
+        </qism>
+    </content>
+  </bab>
+  <tamrin_akhir halaman="89">
+    <judul teks_id="Latihan: Sebutkan jenis-jenis isim mansub pada yang berikut">التَّمْرِينُ: أَذْكُرْ أَنْوَاعَ الْمَنْصُوبَاتِ فِيمَا يَأْتِي</judul>
+    <soal id="1" teks_id="Saya melihat Rasulullah.">رَأَيْتُ رَسُولَ اللَّهِ.</soal>
+    <soal id="2" teks_id="Sesungguhnya air itu suci.">إِنَّ الْمَاءَ طَهُورٌ.</soal>
+    <soal id="3" teks_id="Apabila air itu dua qullah.">إِذَا كَانَ الْمَاءُ قُلَّتَيْنِ.</soal>
+    <soal id="4" teks_id="Empat puluh hari.">أَرْبَعُونَ يَوْمًا.</soal>
+    <soal id="5" teks_id="Saya memahami sebuah pemahaman.">فَهِمْتُ فَهْمًا.</soal>
+    <soal id="6" teks_id="Dan pada hari Kami menghimpun mereka semuanya.">وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا.</soal>
+    <soal id="7" teks_id="Dan mereka tidaklah dzalim.">وَمَا كَانُوا ظَالِمِينَ.</soal>
+    <soal id="8" teks_id="Agar Dia menjadikan kamu satu umat.">لِجَعَلَكُمْ أُمَّةً وَاحِدَةً.</soal>
+    <soal id="9" teks_id="Maka mereka menjadi orang-orang yang rugi.">فَأَصْبَحُوا خَاسِرِينَ.</soal>
+    <soal id="10" teks_id="Sembahlah Tuhanmu.">أَعْبُدُوا رَبَّكُمْ.</soal>
+    <soal id="11" teks_id="Dan Dia adalah yang hak, membenarkan apa yang...">وَهُوَ الْحَقُّ مُصَدَّقًا لِمَا...</soal>
+    <soal id="12" teks_id="Dia telah menciptakan langit-langit dan bumi.">خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ.</soal>
+    <soal id="13" teks_id="Ya Tuhanku, jadikanlah negeri ini negeri yang aman.">رَبِّ اجْعَلْ هَٰذَا بَلَدًا آمِنًا.</soal>
+    <soal id="14" teks_id="Wahai Abu Bakar.">يَا أَبَا بَكْرٍ.</soal>
+    <soal id="15" teks_id="Dan Dia telah mengajarkan Adam nama-nama (benda).">وَعَلِمَ آدَمَ الْأَسْمَاءَ.</soal>
+    <soal id="16" teks_id="Dan utuslah di antara mereka seorang rasul.">وَابْعَثْ فِيهِمْ رَسُولًا.</soal>
+    <soal id="17" teks_id="Saya shalat dalam keadaan duduk.">صَلَيْتُ جَالِسًا.</soal>
+    <soal id="18" teks_id="Saya berdiri untuk memberi hormat kepada guru.">قُمْتُ إِكْرَامًا لِلْأُسْتَاذِ.</soal>
+    <soal id="19" teks_id="Saya berpuasa pada bulan Ramadhan.">صُمْتُ شَهْرَ رَمَضَانَ.</soal>
+    <soal id="20" teks_id="Dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang murah.">وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا.</soal>
+    <soal id="21" teks_id="Dan janganlah kamu mengikuti langkah-langkah setan.">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ.</soal>
+    <soal id="22" teks_id="Dia telah menjadikan bumi bagi kamu sebagai hamparan.">جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا.</soal>
+    <soal id="23" teks_id="Dan ingatlah Allah dengan ingatan yang banyak.">وَاذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا.</soal>
+    <soal id="24" teks_id="Dan siapakah yang lebih baik agamanya daripada Allah.">وَمَنْ أَحْسَنُ مِنَ اللَّهِ دِينًا.</soal>
+    <soal id="25" teks_id="Maka mereka bersujud kecuali Iblis.">فَسَجَدُوا إِلَّا إِبْلِيسَ.</soal>
+    <soal id="26" teks_id="Sesungguhnya hamba Allah Abdullah bin Umar...">إِنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ...</soal>
+    <soal id="27" teks_id="Tunjukilah kami jalan yang lurus.">إِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ.</soal>
+    <soal id="28" teks_id="Sesungguhnya pertolongan Allah itu dekat.">إِنَّ نَصْرَ اللَّهِ قَرِيبٌ.</soal>
+    <soal id="29" teks_id="Empat puluh malam.">أَرْبَعِينَ لَيْلَةً.</soal>
+    <soal id="30" teks_id="Sesungguhnya Kami telah mengutusmu dengan kebenaran sebagai pembawa kabar gembira.">إِنَّا أَرْسَلْنَاكَ بِالْحَقِّ بَشِيرًا.</soal>
+    </tamrin_akhir>
+</al_muyassar>

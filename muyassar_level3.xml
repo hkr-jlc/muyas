@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<al_muyassar level="3">
+
+  <info_buku>
+    <judul>المُيَسَّرُ فِي عِلْمِ النَّحْوِ – الْمُسْتَوَى الثَّالِث</judul>
+    <judul_latin>Al-Muyassar fi 'Ilm al-Nahw - Level 3</judul_latin>
+    <penulis>أ. زَكَرِيَّا بْنُ أَحْمَدَ كَرْخِيٍّ</penulis>
+    <penulis_latin>A. Zakaria bin Ahmad Karkhi</penulis_latin>
+    <penerbit>دَارُ ابْنِ أَزْكَى</penerbit>
+    <penerbit_latin>IBN AZKA press</penerbit_latin>
+    <edisi>الطِّبَعَةُ الثَّالِثَةُ</edisi>
+    <tahun_hijriyah>١٤٤٤ هـ</tahun_hijriyah>
+    <tahun_masehi>٢٠٢٣ م</tahun_masehi>
+    <level>٣</level>
+    <jumlah_halaman>٤٨</jumlah_halaman>
+  </info_buku>
+
+  <pengantar>
+    <item id="muqaddimah" halaman="أ">
+      <judul>المُقَدِّمَةُ</judul>
+      <teks>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ. هَذَا كِتَابُ الْمُيَسَّرِ فِي عِلْمِ النَّحْوِ – الْمُسْتَوَى الثَّالِث، وَهُوَ يَتَضَمَّنُ أَدَقَّ مَوَاضِعَ النَّحْوِ.</teks>
+      <teks_lanjutan>فِي هَذَا الْمُسْتَوَى سَنَدْرُسُ: التَّوَابِعَ بِالتَّفْصِيلِ، وَالْمُضَافَ، وَالتَّوْكِيدَ، وَالْبَدَلَ، وَالتَّطْبِيقَاتِ الْقُرْآنِيَّةِ.</teks_lanjutan>
+    </item>
+  </pengantar>
+
+  <daftar_isi>
+    <bab id="1" halaman="1">
+      <kategori>التَّوَابِعُ</kategori>
+      <judul>التَّوْكِيدُ</judul>
+    </bab>
+    <bab id="2" halaman="5">
+      <kategori>التَّوَابِعُ</kategori>
+      <judul>الْبَدَلُ</judul>
+    </bab>
+    <bab id="3" halaman="10">
+      <kategori>الْمُضَافُ</kategori>
+      <judul>الْإِضَافَةُ وَأَحْكَامُهَا</judul>
+    </bab>
+    <bab id="4" halaman="15">
+      <kategori>الْأَسْمَاءُ الْمَوْصُولَةُ</kategori>
+      <judul>الْأَسْمَاءُ الْمَوْصُولَةُ وَأَحْكَامُهَا</judul>
+    </bab>
+    <bab id="5" halaman="20">
+      <kategori>الِاسْتِفْهَامُ</kategori>
+      <judul>أَدَوَاتُ الِاسْتِفْهَامِ</judul>
+    </bab>
+    <bab id="6" halaman="25">
+      <kategori>النَّفْيُ وَالِانْتِهَاءُ</kategori>
+      <judul>أَدَوَاتُ النَّفْيِ وَالِاسْتِثْنَاءِ</judul>
+    </bab>
+    <bab id="7" halaman="30">
+      <kategori>التَّطْبِيقَاتُ الْقُرْآنِيَّةُ</kategori>
+      <judul>إِعْرَابُ سُورَةِ الْفَاتِحَةِ</judul>
+    </bab>
+    <bab id="8" halaman="35">
+      <kategori>التَّطْبِيقَاتُ الْقُرْآنِيَّةُ</kategori>
+      <judul>إِعْرَابُ سُورَةِ الْإِخْلَاصِ</judul>
+    </bab>
+  </daftar_isi>
+
+  <bab id="1" halaman="1">
+    <kategori>التَّوَابِعُ</kategori>
+    <judul>التَّوْكِيدُ</judul>
+    <content type="definisi">
+      <teks>التَّوْكِيدُ هُوَ تَابِعٌ يُؤَكِّدُ مَعْنَى الْمُؤَكَّدِ، وَهُوَ عَلَى قِسْمَيْنِ: تَوْكِيدٌ لَفْظِيٌّ، وَتَوْكِيدٌ مَعْنَوِيٌّ.</teks>
+      <contoh>جَاءَ زَيْدٌ نَفْسُهُ. قَامَ الطَّالِبُ عَيْنُهُ.</contoh>
+      <keterangan>التَّوْكِيدُ اللَّفْظِيُّ: هُوَ إِعَادَةُ اللَّفْظِ مِثْلَ: جَاءَ زَيْدٌ زَيْدٌ. وَالتَّوْكِيدُ الْمَعْنَوِيُّ: بِالْكَلِمَاتِ الَّتِي تَدُلُّ عَلَى الْمَعْنَى مِثْلَ: نَفْسُ، عَيْنُ، كِلَا، كُلَّ، كِلْتَا، أَجْمَعُونَ.</keterangan>
+    </content>
+  </bab>
+
+  <bab id="2" halaman="5">
+    <kategori>التَّوَابِعُ</kategori>
+    <judul>الْبَدَلُ</judul>
+    <content type="definisi">
+      <teks>الْبَدَلُ هُوَ اسْمٌ يُذْكَرُ بَعْدَ اسْمٍ آخَرَ لِبَيَانِ مَعْنَاهُ، مِثَلُ: جَاءَ زَيْدٌ أَخُوكَ.</teks>
+      <contoh>رَأَيْتُ زَيْدًا أَخَاكَ. نَصَرَنَا اللَّهُ رَبُّنَا.</contoh>
+      <keterangan>أَنْوَاعُ الْبَدَلِ: بَدَلُ بَعْضٍ مِنْ كُلٍّ، وَبَدَلُ اشتمالٍ، وَبَدَلُ كُلِّ بَعْضٍ، وَبَدَلُ الْإِشَارَةِ، وَبَدَلُ الشَّمْسِ.</keterangan>
+    </content>
+  </bab>
+
+  <khatimah halaman="٤٨">
+    <judul>خَاتِمَةُ الْكِتَابِ</judul>
+    <teks>وَبِهَذَا نَكُونُ قَدْ أَتْمَمْنَا دِرَاسَةَ الْمُيَسَّرِ فِي عِلْمِ النَّحْوِ عَلَى ثَلَاثَةِ مُسْتَوَيَاتٍ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ.</teks>
+  </khatimah>
+
+</al_muyassar>
